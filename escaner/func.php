@@ -50,4 +50,17 @@ require('config.php');
         $pass = sha1(md5($cert.$pass1));
 	return $pass;
 }
+/*
+function insert_user($nombre,$username,$pass1,$pass2){
+    require('config.php');
+	$error="El host ha sido creado correctamente";
+        $nombre = mysqli_real_escape_string($link,$nombre);
+        $username = mysqli_real_escape_string($link,$ip);
+        $pass1 = mysqli_real_escape_string($link,$pass1);
+        $pass1 = sha1(md5($cert.$pass1));
+        mysqli_query($link,"INSERT INTO usuario (iduser,nombre,username,password) VALUES (NULL,'".$nombre."','".$username."','".$pass1."')");
+        mysqli_close($link);
+	header("location: index.php");
+return $error;
+}*/
 ?>

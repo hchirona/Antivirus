@@ -2,7 +2,6 @@
 <head>
     <title>Antivirus</title>
 </head>
-<?php
 <body>
     <center>
         <h1>Nuevo Host<br></h1>
