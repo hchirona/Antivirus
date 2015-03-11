@@ -23,17 +23,17 @@ if ($host) {
 ?>
 <table>
 <tr>
-<form action="acceso-in.php" METHOD=POST>
+<form action="panel.php" METHOD=POST>
 <input type="hidden" name="idhost" value="<?php echo $host['idhost'];  ?>">
 <input type="hidden" name="nombre" value="<?php echo $host['nombre']; ?>">
 <input type="hidden" name="url" value="<?php echo $host['url']; ?>">
 <button type="submit"><?php echo $host['nombre']; ?></button>
 </form>
-<form action="acceso-rm.php" METHOD=POST>
+<form action="datos-host.php" METHOD=POST>
 <input type="hidden" name="idhost" value="<?php echo $host['idhost'];  ?>">
 <input type="hidden" name="nombre" value="<?php echo $host['nombre']; ?>">
 <input type="hidden" name="url" value="<?php echo $host['url']; ?>">
-<button type="submit">X</button>
+<button type="submit">Info</button>
 </form>
 </tr>
 </table>

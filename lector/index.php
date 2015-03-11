@@ -4,14 +4,6 @@
 </head>
 
 <body>
-<!--
- <form action="index.php" method="post">
- <input type="submit" value="Pagina principal">
- </form>
- <form action="new.php" method="post">
- <input type="submit" value="Nuevo virus">
- </form>
--->
     <center>
         <h1>Lector de codigo PHP<br></h1>
     </center>
