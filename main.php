@@ -124,7 +124,7 @@ elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"
 <CENTER>
 <TABLE border="0">
 
-   <TEXTAREA rows="10" cols="100" NAME="var" "></TEXTAREA><br>
+   <TEXTAREA rows="12" cols="200" NAME="var" "></TEXTAREA><br>
 
    <b>Tipo de Compresion</b>
 <br>
@@ -144,7 +144,7 @@ elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"
 <center>
 <b>Resultado del codigo PHP introducido:</b><br>
 
-<iframe name="resultado" src="decode.php" width="90%" height="50%" ></iframe>
+<iframe name="resultado" src="decode.php" width="90%" height="45%" frameborder="1"></iframe>
 </center>
 
 
