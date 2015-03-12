@@ -36,12 +36,6 @@ if ($compresion=="" && $codificacion==""){
  $segu=str_replace("<?","",$segu);
  $segu=str_replace("?>","",$segu);
  eval($segu);
-
-	//ob_start();
-	//eval($segu);
-	//$a=ob_get_clean();
-	//echo stripcslashes(nl2br(htmlentities($a)));
-
 }
 
 }elseif ($compresion!=="" && $codificacion!==""){

@@ -11,22 +11,22 @@ echo '<html>
 <table>
 <tr>
 <form action="main.php" method=POST>
-<input name="main-host" type="submit" value="HOSTS">
+<input name="main-host" style="width:100px; height:35px"  type="submit" value="HOSTS">
 </form>
 <form action="main.php" method=POST>
-<input name="main-cliente" type="submit" value="CLIENTES">
+<input name="main-cliente" style="width:100px; height:35px" type="submit" value="CLIENTES">
 </form>
 <form action="main.php" method=POST>
-<input name="main-lector" type="submit" value="LECTOR PHP">
+<input name="main-lector" style="width:100px; height:35px" type="submit" value="LECTOR PHP">
 </form>
 <form action="main.php" method=POST>
-<input name="main-escaner" type="submit" value="ESCANER">
+<input name="main-escaner" style="width:100px; height:35px" type="submit" value="ESCANER">
 </form>
 <form action="main.php" method=POST>
-<input name="main-catalogo" type="submit" value="CATALOGO">
+<input name="main-catalogo" style="width:100px; height:35px" type="submit" value="CATALOGO">
 </form>
 <form action="main.php" method=POST>
-<input name="main-log" type="submit" value="LOGS">
+<input name="main-log" style="width:100px; height:35px" type="submit" value="LOGS">
 </form>
 </tr>
 </table>';
@@ -42,10 +42,7 @@ if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
 </center>';
 require('config.php');
 $lista = mysqli_query($link, "SELECT * FROM host");
-$numfilas = mysqli_num_rows($lista);
-$n=0;
 $sigue= TRUE;
-mysql_data_seek($lista,0);
 
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
@@ -56,13 +53,13 @@ echo '<table>
 <input type="hidden" name="host-idhost" value="'.$host['idhost'].'">
 <input type="hidden" name="host-nombre" value="'.$host['nombre'].'">
 <input type="hidden" name="host-url" value="'.$host['url'].'">
-<button name="host-login" type="submit" value="login host">'.$host['nombre'].'</button>
+<button name="host-login" style="width:100px; height:30px" type="submit" value="login host">'.$host['nombre'].'</button>
 </form>
 <form action="main.php" METHOD=POST>
 <input type="hidden" name="host-idhost" value="'.$host['idhost'].'">
 <input type="hidden" name="host-nombre" value="'.$host['nombre'].'">
 <input type="hidden" name="host-url" value="'.$host['url'].'">
-<button name="host-info" type="submit" value="info host">Info</button>
+<button name="host-info" style="width:50px; height:30px" type="submit" value="info host">Info</button>
 </form>
 </tr>
 </table>';
@@ -107,14 +104,17 @@ echo '<html>
 </html>';
 
 }
+}elseif((isset($_REQUEST["host-login"]) && $_REQUEST["host-login"]=="login host")){
+echo "prueba de menu host-login";
+    
 }elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host")){
-
+echo "prueba de menu host-info";
     
 }elseif(isset($_REQUEST["main-cliente"]) && $_REQUEST["main-cliente"]=="CLIENTES"){
-    
-}
-elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
-    echo'<body>
+ echo "prueba de menu main-cliente";
+ 
+}elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
+   /* echo'<body>
     <center>
         <h1>Lector de codigo PHP<br></h1>
     </center>
@@ -124,7 +124,7 @@ elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"
 <CENTER>
 <TABLE border="0">
 
-   <TEXTAREA rows="12" cols="200" NAME="var" "></TEXTAREA><br>
+   <TEXTAREA rows="12" cols="200" NAME="var"></TEXTAREA><br>
 
    <b>Tipo de Compresion</b>
 <br>
@@ -152,21 +152,22 @@ elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"
 </FORM>
         </div>
 
-
-</body>';
+</body>';*/
+    echo '<iframe name="resultado" src="http://www.unphp.net/" width="90%" height="85%" frameborder="1"></iframe>';
+    
+    
 }
 elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
+    echo "prueba de menu main escaner";
     
-}
-elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
+}elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
+    echo "prueba de menu main catalogo";
     
-}
-elseif(isset($_REQUEST["main-log"]) && $_REQUEST["main-log"]=="LOGS"){
+}elseif(isset($_REQUEST["main-log"]) && $_REQUEST["main-log"]=="LOGS"){
+    echo "prueb de menu main-log";
     
-
 }else{
-
-
+echo "prueba de home";
 
 }
 echo '</body></html>';

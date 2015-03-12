@@ -80,6 +80,31 @@ function login_in($username,$password){
     return $error;
 }
 /*
+function host_login(){
+            if(!($con = ssh2_connect($ip, 2222))){
+            echo'No se puede conectar con la máquina '.$ip;
+        } else {
+            //Autentificación
+            if(!ssh2_auth_password($con, "userssh", "userssh")) {
+                echo'Fallo de autentificación en la máquina '.$ip;
+            } else {
+                //Ejecución del comando
+                if(!($stream = ssh2_exec($con, "cmd /C cd C:\bat\script && script.bat" )) ){
+                    echo 'Fallo de ejecución de comando en la máquina '.$ip;
+                } else {
+                    //echo "Ejecutado comando 2";
+                    stream_set_blocking( $stream, true );
+                    $data = "";
+                    while( $buf = fread($stream,4096) ){
+                        $data .= $buf;
+                        echo "".$buf;                        
+                    }
+                    fclose($stream);
+                }
+            }
+         }  
+}*/
+/*
 function insert_user($nombre,$username,$pass1,$pass2){
     require('config.php');
 	$error="El host ha sido creado correctamente";
@@ -92,4 +117,9 @@ function insert_user($nombre,$username,$pass1,$pass2){
 	header("location: index.php");
 return $error;
 }*/
+
+
+
+//securidedode
+
 ?>
