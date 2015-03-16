@@ -1,13 +1,19 @@
 <?php
 
-function insert_host($nombre,$ip,$pass1,$pass2){
+function insert_host($nombre,$url,$ip,$username,$pass1,$pass2){
 require('config.php');
 $error="";
 if($nombre==""){
 $error.=" Nombre ";
 }
+if($url==""){
+$error.=" Url ";
+}
 if($ip==""){
 $error.= " IP ";
+}
+if($username==""){
+$error.= " Usuario ";
 }
 if($pass1=="" || $pass2==""){
 $error.=" Contraseña vacia ";
@@ -20,10 +26,11 @@ echo "Faltan los siguientes campos: ".$error;
 }else{
 	$error="El host ha sido creado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
+        $url=mysqli_real_escape_string($link,$url);;
         $ip = mysqli_real_escape_string($link,$ip);
         $pass1 = mysqli_real_escape_string($link,$pass1);
-        $pass1 = sha1(md5($cert.$pass1));
-        mysqli_query($link,"INSERT INTO host (idhost,nombre,ip,password) VALUES (NULL,'".$nombre."','".$ip."','".$pass1."')");
+        //$pass1 = sha1(md5($cert.$pass1));
+        mysqli_query($link,"INSERT INTO host (idhost,nombre,url,ip,username,password) VALUES (NULL,'".$nombre."','".$url."','".$ip."','".$username."','".$pass1."')");
         mysqli_close($link);
 }
 return $error;
@@ -79,6 +86,25 @@ function login_in($username,$password){
     
     return $error;
 }
+
+function preg_decode($texto){
+$l1= preg_replace('/preg_replace\(\"\/\.\*\/e\"\,\"/', '', $texto);
+$l2= preg_replace('/\'.*/', '', $l1);
+$l3= 'print "'.$l2.'";';
+$l4= preg_replace('/^.*\'/' ,'', $l1);
+$l5= preg_replace('/\".*/' ,'' ,$l4);
+$l6= 'print "'.$l5.'";';
+$l7= preg_replace('/^.*?\'/','"',$l1);
+$l8= preg_replace('/\'.*/','"',$l7);
+
+ob_start();
+echo eval($l3);
+echo "$l8";
+echo eval($l6);
+$resultado=ob_get_clean();
+return $resultado;
+}
+
 /*
 function host_login(){
             if(!($con = ssh2_connect($ip, 2222))){
@@ -118,8 +144,6 @@ function insert_user($nombre,$username,$pass1,$pass2){
 return $error;
 }*/
 
-
-
-//securidedode
+ 
 
 ?>
