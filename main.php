@@ -56,9 +56,7 @@ echo '<table>
 <button name="host-login" type="submit" value="login host">'.$host['nombre'].'</button>
 </form>
 <form action="main.php" METHOD=POST>
-<input type="hidden" name="host-idhost" value="'.$host['idhost'].'">
-<input type="hidden" name="host-nombre" value="'.$host['nombre'].'">
-<input type="hidden" name="host-ip" value="'.$host['ip'].'">
+<input type="hidden" name="host-id" value="'.$host['idhost'].'">
 <button name="host-info" type="submit" value="info host">Info</button>
 </form>
 </tr>
@@ -72,7 +70,6 @@ mysqli_close($link);
 }elseif((isset($_REQUEST["host-new"]) && $_REQUEST["host-new"]=="Nuevo host") || (isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear")){
 if(isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear"){
 
-    $var=$_REQUEST["button"];
     $nombre=$_REQUEST['nombre'];
     $url=$_REQUEST['url'];
     $ip=$_REQUEST['ip'];
@@ -106,8 +103,8 @@ echo '<html>
 </CENTER>
 </FORM>
 </html>';
-
 }
+
 }elseif(((isset($_REQUEST["host-login"]) && $_REQUEST["host-login"]=="login host") || (isset($_REQUEST['ssh-button']) && $_REQUEST['ssh-button']=="Exec") )){
 echo "prueba de menu host-login<br>";
 $ssh_url=$_REQUEST['host-url'];
@@ -132,7 +129,7 @@ echo $ssh_server ." ". $ssh_command."</br>";*/
                 die('Fallo de autentificación en la máquina '.$ssh_server);
             } else {
         echo $ssh_url;
-        $connection="cGFzc3dvcmRvdmVycG93ZXI=7cf1c07c7c419ce659ef378559cccaa9";
+        $connection="cGFzc3dvcmRvdmVycG93ZXI=f3a83e2633bfa74ec08318f4f9cc99fb";
         echo '<iframe name="resultado" src="'.$ssh_url.'?'.$connection.'" width="100%" height="85%" frameborder="1">';
                 if(!($stream = ssh2_exec($con, $ssh_command)) ){
                     echo 'Fallo de ejecución de comando en la máquina '.$ssh_server;
@@ -150,13 +147,63 @@ echo $ssh_server ." ". $ssh_command."</br>";*/
       } 
                 }
         }
-echo $ssh_url;
-        $connection="cGFzc3dvcmRvdmVycG93ZXI=7cf1c07c7c419ce659ef378559cccaa9";
-echo '<iframe name="resultado" src="'.$ssh_url.'?'.$connection.'" width="100%" height="85%" frameborder="1">';
-  
-}elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host")){
-echo "prueba de menu host-info";
-
+/*echo $ssh_url;
+        $connection="cGFzc3dvcmRvdmVycG93ZXI=65476e6fe1e3761d4221d3a127e924ac";
+echo '<iframe name="resultado" src="'.$ssh_url.'?'.$connection.'" width="100%" height="85%" frameborder="1">';*/
+}elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host") || (isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar" || (isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"))){
+if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
+     $id=$_REQUEST['host-id'];
+    $nombre=$_REQUEST['nombre'];
+    $url=$_REQUEST['url'];
+    $ip=$_REQUEST['ip'];
+    $username=$_REQUEST['username'];
+    $pass1=$_REQUEST['password1'];
+    $pass2=$_REQUEST['password2'];
+    echo'<html>
+    <center>
+        <h1>Hosts<br></h1>
+        '.modify_host($id,$nombre,$url,$ip,$username,$pass1,$pass2).'
+<CENTER>
+</html>';
+}elseif(isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"){
+    $id=$_REQUEST['host-id'];
+    $nombre=$_REQUEST['host-nombre'];
+    echo'<html>
+    <center>
+        <h1>Hosts<br></h1>
+        '.delete_host($id,$nombre).'
+<CENTER>
+</html>';
+}
+else{
+echo '<center><h1>Hosts<br></h1></center>';
+$lista = mysqli_query($link, "SELECT * FROM host where idhost='".$_REQUEST['host-id']."'");
+$sigue= TRUE;
+while ($sigue) {
+$host= mysqli_fetch_array($lista);
+if ($host) {
+echo '<TABLE border="0">
+<FORM ACTION="main.php" METHOD=POST>
+<input type="hidden" name="host-id" value="'.$host['idhost'].'">
+<tr><td>Nombre:</td><td><input type="text" name="nombre" value="'.$host['nombre'].'"><br></td></tr>
+<tr><td>Url:</td><td><input type="text" name="url" value="'.$host['url'].'"><br></td></tr>
+<tr><td>Ip:</td><td><input type="text" name="ip" value="'.$host['ip'].'"><br></td></tr>
+<tr><td>Usuario:</td><td><input type="text" name="username" value="'.$host['username'].'"><br></td></tr>
+<tr><td>Cambiar contraseña:</td><td><input type="password" name="password1" value="'.$host['password'].'"><br><td></tr>
+<tr><td>Confirmar:</td><td><input type="password" name="password2" value="'.$host['password'].'"><br><td></tr>
+<tr><td><INPUT TYPE="submit" name="host-modify" VALUE="Modificar">
+<td><INPUT TYPE="reset" VALUE="Restaurar"></td></tr>
+</tr>
+</TABLE></form>';
+echo '<FORM ACTION="main.php" METHOD=POST>
+<input type="hidden" name="host-id" value="'.$host['idhost'].'">
+<input type="hidden" name="host-nombre" value="'.$host['nombre'].'">
+<INPUT TYPE="submit" name="host-delete" VALUE="Eliminar host"></form>';
+}else {
+$sigue = FALSE;
+}
+}
+}
 }elseif(isset($_REQUEST["main-cliente"]) && $_REQUEST["main-cliente"]=="CLIENTES"){
  echo "prueba de menu main-cliente";
 
@@ -202,8 +249,7 @@ echo "prueba de menu host-info";
 </body>';*/
     echo '<iframe name="unphp" src="http://www.unphp.net/" width="100%" height="90%" frameborder="0" ></iframe>';
 
-}
-elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
+}elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
     echo "prueba de menu main escaner";
 echo '<iframe name="escaner" src="http://localhost/escaner/index.php" width="100%" height="85%" frameborder="1">';
 }elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){

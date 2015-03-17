@@ -29,16 +29,51 @@ echo "Faltan los siguientes campos: ".$error;
         $url=mysqli_real_escape_string($link,$url);;
         $ip = mysqli_real_escape_string($link,$ip);
         $pass1 = mysqli_real_escape_string($link,$pass1);
-        //$pass1 = sha1(md5($cert.$pass1));
         mysqli_query($link,"INSERT INTO host (idhost,nombre,url,ip,username,password) VALUES (NULL,'".$nombre."','".$url."','".$ip."','".$username."','".$pass1."')");
         mysqli_close($link);
 }
 return $error;
 }
 
-function delete_host(){
+function modify_host($id,$nombre,$url,$ip,$username,$pass1,$pass2){
 require('config.php');
-mysqli_query($link,"DELETE FROM host WHERE idhost ='".$idhost."' and nombre='".$nombre."'");
+$error="";
+if($nombre==""){
+$error.=" Nombre ";
+}
+if($url==""){
+$error.=" Url ";
+}
+if($ip==""){
+$error.= " IP ";
+}
+if($username==""){
+$error.= " Usuario ";
+}
+if($pass1=="" || $pass2==""){
+$error.=" Contraseña vacia ";
+}
+if($pass1 !== $pass2 ){
+$error.="<br>Las contraseñas no coinciden";
+}
+if($error!==""){
+echo "Faltan los siguientes campos: ".$error;
+}else{
+	$error="El host ha sido modificado correctamente";
+        $nombre = mysqli_real_escape_string($link,$nombre);
+        $url=mysqli_real_escape_string($link,$url);;
+        $ip = mysqli_real_escape_string($link,$ip);
+        $pass1 = mysqli_real_escape_string($link,$pass1);
+        mysqli_query($link,"UPDATE host SET nombre='".$nombre."',url='".$url."',ip='".$ip."',username='".$username."',password='".$pass1."' WHERE idhost =".$id.";");
+        mysqli_close($link);
+}
+return $error;
+}
+
+function delete_host($id,$nombre){
+require('config.php');
+
+mysqli_query($link,"DELETE FROM host WHERE idhost ='".$id."' and nombre='".$nombre."'");
         mysqli_close($link);
 $error="El host se ha eliminado correctamente";
 header("location: main.php");
