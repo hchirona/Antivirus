@@ -76,7 +76,6 @@ require('config.php');
 mysqli_query($link,"DELETE FROM host WHERE idhost ='".$id."' and nombre='".$nombre."'");
         mysqli_close($link);
 $error="El host se ha eliminado correctamente";
-header("location: main.php");
 return $error;
 }
 
@@ -139,6 +138,8 @@ echo eval($l6);
 $resultado=ob_get_clean();
 return $resultado;
 }
+
+
 
 /*
 function host_login(){

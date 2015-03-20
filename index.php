@@ -8,20 +8,13 @@ if(isset($_REQUEST["login"]) || $_REQUEST["login"]=="Login"){
     $pass=$_REQUEST['password'];
     echo login_in($user,$pass);
 }else{
-echo '<html>
-<head>
-<title>Panel de acceso</title>
-</head>
-<body>
+echo '<title>Panel de acceso</title></head><body>
 <form action="index.php" method="post" name="session">
 <label>Usuario :</label>
-<input id="name" name="username" placeholder="username" type="text">
+<input id="name" name="username" placeholder="username" type="text" required>
 <label>Contraseña :</label>
-<input id="password" name="password" placeholder="******" type="password">
+<input id="password" name="password" placeholder="******" type="password" required>
 <input name="login" type="submit" value="Login">
-<span>'.$error.'</span>
-</form>
-</body>
-</html>';
-}
+<span>'.$error.' </span></form></body></html>';
+} 
 ?>
