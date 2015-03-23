@@ -111,6 +111,13 @@ Comando:<input type="text" name="ssh-command">
 echo $ssh_server ." ". $ssh_command."</br>";*/
         if(!($con = ssh2_connect($ssh_server, 22))){
             echo'No se puede conectar con la máquina '.$ssh_server;
+            /*echo '<form action="main.php" METHOD=POST>
+<input type="hidden" name="host-ip" value="'.$ssh_server.'">
+<input type="hidden" name="host-url" value="'.$ssh_url.'">
+<input type="hidden" name="host-username" value="'.$ssh_user.'">
+<input type="hidden" name="host-password" value="'.$ssh_pass.'">
+<button name="host-login" type="submit" value="login host">Reintentar</button>
+</form>';*/
         } else {
 
             if(!ssh2_auth_password($con, $ssh_user, $ssh_pass)) {
@@ -234,7 +241,7 @@ $sigue = FALSE;
 
 }elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
     echo "prueba de menu main escaner";
-echo '<iframe name="escaner" src="http://localhost/escaner/index.php" width="100%" height="85%" frameborder="1">';
+echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="1">';
 }elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
     echo "prueba de menu main catalogo";
 
