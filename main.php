@@ -73,6 +73,7 @@
 
             html{
                 margin-top: 0px;
+                background: #E3E2E0;
             }
         </style>
         <title>Panel de control</title>
@@ -250,23 +251,21 @@ $sigue= TRUE;
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
 if ($host) {
-echo '<TABLE border="0">
+echo '<center><table border="0">
 <FORM ACTION="main.php" METHOD=POST>
 <input type="hidden" name="host-id" value="'.$host['idhost'].'" required>
 <tr><td>Nombre:</td><td><input type="text" name="nombre" value="'.$host['nombre'].'" required><br></td></tr>
 <tr><td>Url:</td><td><input type="text" name="url" value="'.$host['url'].'" required><br></td></tr>
 <tr><td>Ip:</td><td><input type="text" name="ip" value="'.$host['ip'].'" required><br></td></tr>
 <tr><td>Usuario:</td><td><input type="text" name="username" value="'.$host['username'].'" required><br></td></tr>
-<tr><td>Cambiar contraseña:</td><td><input type="password" name="password1" value="'.$host['password'].'" required><br><td></tr>
+<tr><td>Contraseña:</td><td><input type="password" name="password1" value="'.$host['password'].'" required><br><td></tr>
 <tr><td>Confirmar:</td><td><input type="password" name="password2" value="'.$host['password'].'" required><br><td></tr>
-<tr><td><INPUT TYPE="submit" name="host-modify" VALUE="Modificar">
-<td><INPUT TYPE="reset" VALUE="Restaurar"></td></tr>
-</tr>
-</TABLE></form>';
-echo '<FORM ACTION="main.php" METHOD=POST>
+<tr><td><INPUT TYPE="submit" name="host-modify" VALUE="Modificar"></td><td><INPUT TYPE="reset" VALUE="Restaurar"></td></tr>
+</form></table>
+<FORM ACTION="main.php" METHOD=POST>
 <input type="hidden" name="host-id" value="'.$host['idhost'].'">
 <input type="hidden" name="host-nombre" value="'.$host['nombre'].'">
-<INPUT TYPE="submit" name="host-delete" VALUE="Eliminar host"></form>';
+<INPUT TYPE="submit" name="host-delete" VALUE="Eliminar host" style="position:relative; left:20%;"></form></center>';
 
 
 }else {
