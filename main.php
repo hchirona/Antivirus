@@ -1,10 +1,90 @@
+<html>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Antivirus Digital Value</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <style type="text/css">
+            h1 {
+                font-family: arial;
+                text-align: center;
+                padding-top: 10px;
+                color: #000000;
+            }
+
+            .scanner {
+                padding-top: 130px;
+                padding-bottom: 20px;
+                background: #FFFFFF;
+            }
+
+            .scanner p{
+                font-family: arial;
+                padding-left: 40%;
+                margin: 0;
+                font-size: 15px;
+            }
+
+            .scanner button{
+                font-family: arial;
+                margin-left: 40%;
+                font-size: 15px;
+            }
+
+            .g {
+                color: #009900;
+                font-weight: bold;
+            }
+
+            .r {
+                color: #990000;
+                font-weight: bold;
+            }
+
+            .r2 {
+                color: #E78034;
+            }
+
+            .d {
+                color: #AA9797;
+            }
+
+            .summary {
+                padding-top: 10px;
+                margin-top: 0px;
+                background: #E3E2E0;
+            }
+
+            .summary p {
+                font-size: 12px;
+                text-align: center;
+                padding: 5px;
+                color: #000000;
+            }
+
+            .top-labels {
+                background: #990033;
+            }
+
+            .top-labels p {
+                padding: 20px 0px 20px 0px;
+                text-align:center;
+                color: #000000;
+            }
+
+            html{
+                margin-top: 0px;
+            }
+        </style>
+        <title>Panel de control</title>
+    </head>
+    <body>
 <?php
 require('session.php');
 require('func.php');
 require('config.php');
-echo '<b id="welcome">Bienvenido: <i>'.$_SESSION['nombre'].'</i></b>
-    <form action="main.php" method="post" name="session">
-<input name="exit" type="submit" value="Cerrar sessión">
+echo '<div class="top-labels">
+    <form action="main.php" method="post" name="session" >
+<input name="exit" type="submit" value="Cerrar sessión" style="position:relative; left:90%;">
 </form>
 <table>
 <tr>
@@ -27,7 +107,7 @@ echo '<b id="welcome">Bienvenido: <i>'.$_SESSION['nombre'].'</i></b>
 <input name="main-log" style="width:100px; height:35px" type="submit" value="LOGS">
 </form>
 </tr>
-</table>';
+</table></div><div class="summary">';
 if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
     login_out();
 }elseif(isset($_REQUEST["main-host"]) && $_REQUEST["main-host"]=="HOSTS"){
@@ -198,47 +278,23 @@ $sigue = FALSE;
  echo "prueba de menu main-cliente";
 
 }elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
-   /* echo'<body>
-    <center>
-        <h1>Lector de codigo PHP<br></h1>
-    </center>
-    <div>
-  <FORM ACTION="decode.php" METHOD=POST target="resultado">
-
-<CENTER>
-<TABLE border="0">
-
-   <TEXTAREA rows="12" cols="200" NAME="var"></TEXTAREA><br>
-
-   <b>Tipo de Compresion</b>
-<br>
+    echo'<center><h1>Lector de codigo PHP<br></h1></center><div>
+  <FORM ACTION="decode.php" METHOD=POST target="resultado"><CENTER><TABLE border="0">
+<TEXTAREA rows="12" cols="200" NAME="var"></TEXTAREA><br>
+<b>Tipo de Compresion</b><br>
    <input type="radio" name="compresion" value="">Sin compresion
    <input type="radio" name="compresion" value="gzinflate">gzinflate
    <input type="radio" name="compresion" value="gzuncompress">gzuncompress
-<br><br>
-   <b>Tipo de Codificacion</b>
-<br>
+<br><br><b>Tipo de Codificacion</b><br>
    <input type="radio" name="codificacion" value="">Sin codificar
    <input type="radio" name="codificacion" value="base64_decode" >base64
-<br><br>
-       <INPUT TYPE="submit" VALUE="Enviar">
-       <INPUT TYPE="reset" VALUE="Borrar">
-
-</TABLE>
-<center>
-<b>Resultado del codigo PHP introducido:</b><br>
-
+<br><br><INPUT TYPE="submit" VALUE="Enviar"><INPUT TYPE="reset" VALUE="Borrar">
+</TABLE><center><b>Resultado del codigo PHP introducido:</b><br>
 <iframe name="resultado" src="decode.php" width="90%" height="45%" frameborder="1"></iframe>
-</center>
-
-
-</CENTER>
-</FORM>
-        </div>
-
-</body>';*/
+</center></CENTER></FORM></body>';
+    /*
     echo '<iframe name="unphp" src="http://www.unphp.net/" width="100%" height="90%" frameborder="0" ></iframe>';
-
+*/
 }elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
     echo "prueba de menu main escaner";
 echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="1">';
