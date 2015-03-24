@@ -72,7 +72,6 @@
             }
 
             html{
-                margin-top: 0px;
                 background: #E3E2E0;
             }
         </style>

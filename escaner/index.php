@@ -1,14 +1,14 @@
 <?php
-//ini_set('max_execution_time',0);
+ini_set('max_execution_time',0);
 
 error_reporting(0);
 
-////////////////////////////////////////////////////////////////////////////////////////////////////Conectar BD
+////////////////////////////////////////////////////////////////////////////////////////////////////Conectar BD (Poner Base de Datos Final)
 
 // Conectando, seleccionando la base de datos
-//$link = mysqli_connect("-", "-", "-") or die('No se pudo conectar: ' . mysqli_error());
+//$link = mysqli_connect("localhost", "root", "") or die('No se pudo conectar: ' . mysqli_error());
 //echo 'Connected successfully';
-//mysqli_select_db($link,"-") or die('No se pudo seleccionar la base de datos');
+//mysqli_select_db($link,"cuarentena") or die('No se pudo seleccionar la base de datos');
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////Configuración Inicial
@@ -178,25 +178,24 @@ function virus_check($file, $defs, $signatures ,$debug) {
 
         }
 
-
         if (($debug)&&($clean))
             $report .= '<p class="g">Limpio: ' . $file . '</p>';
 
-       /* if($file_infected == 1){
-        	$md5=shell_exec('md5sum '.$file.'| cut -d " " -f -1');
-                $nombre=basename($file);
+        if($file_infected == 1){
+            $md5=shell_exec('md5sum '.$file.'| cut -d " " -f -1');
+            $nombre=basename($file);
 
-                $nombre=trim($nombre);
-                $md5=trim($md5);
-                $file=trim($file);
+            $nombre=trim($nombre);
+            //$md5=trim($md5);
+            $file=trim($file);
 
-            	$sql="INSERT IGNORE INTO archivos (nombre, md5, ruta) VALUES ('".$nombre."','".$md5."','".$file."')";
-            	$resultado=mysqli_query($link,$sql) or die ('Fallo al hacer Insert'.mysqli_error());
-		if(is_dir('cuarentena')==false)
-			mkdir('cuarentena',0777);
-            	copy($file,'cuarentena/'.$nombre);
-                $infected++;
-        }*/
+            //$sql="INSERT IGNORE INTO archivos (nombre, md5, ruta) VALUES ('".$nombre."','".$md5."','".$file."')";
+            //$resultado=mysqli_query($link,$sql) or die ('Fallo al hacer Insert'.mysqli_error());
+            if(is_dir('cuarentena')==false)
+                mkdir('cuarentena',0777);
+            copy($file,'cuarentena/'.$nombre);
+            $infected++;
+        }
     }
 }
 

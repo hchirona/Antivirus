@@ -57,7 +57,7 @@ $CONFIG['extensions'][] = 'php5';
 
 $CONFIG['extensions'][] = 'txt';
 // $CONFIG['extensions'][] = 'rtf';
-$CONFIG['extensions'][] = 'doc';
+// $CONFIG['extensions'][] = 'doc';
 // $CONFIG['extensions'][] = 'conf';
 // $CONFIG['extensions'][] = 'dat';
 
@@ -82,6 +82,5 @@ $CONFIG['extensions'][] = 'perl';
 $CONFIG['extensions'][] = 'jpeg';
 $CONFIG['extensions'][] = 'jpg';
 $CONFIG['extensions'][] = 'gif';
-$CONFIG['extensions'][] = 'png';
 
 ?>

@@ -47,6 +47,10 @@
             .d {
                 color: #AA9797;
             }
+            
+            .host {
+                margin-left: 5%;
+            }
 
             .summary {
                 padding-top: 10px;
@@ -72,7 +76,6 @@
             }
 
             html{
-                margin-top: 0px;
                 background: #E3E2E0;
             }
         </style>
@@ -124,7 +127,7 @@ $sigue= TRUE;
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
 if ($host) {
-echo '<table>
+echo '<div class="host"><table>
 <tr>
 <form action="main.php" METHOD=POST>
 <input type="hidden" name="host-ip" value="'.$host['ip'].'">
@@ -138,7 +141,7 @@ echo '<table>
 <button name="host-info" type="submit" value="info host">Info</button>
 </form>
 </tr>
-</table>';
+</table></div>';
 } else {
 $sigue = FALSE;
 }
@@ -264,8 +267,9 @@ echo '<center><table border="0">
 </form></table>
 <FORM ACTION="main.php" METHOD=POST>
 <input type="hidden" name="host-id" value="'.$host['idhost'].'">
-<input type="hidden" name="host-nombre" value="'.$host['nombre'].'">
-<INPUT TYPE="submit" name="host-delete" VALUE="Eliminar host" style="position:relative; left:20%;"></form></center>';
+<input type="hidden" name="host-nombre" value="'.$host['nombre'].'"></br>
+    ¿Deseas eliminar el host definitivamente?
+<INPUT TYPE="submit" name="host-delete" VALUE="Eliminar host"></form></center>';
 
 
 }else {
@@ -295,7 +299,6 @@ $sigue = FALSE;
     echo '<iframe name="unphp" src="http://www.unphp.net/" width="100%" height="90%" frameborder="0" ></iframe>';
 */
 }elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
-    echo "prueba de menu main escaner";
 echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="1">';
 }elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
     echo "prueba de menu main catalogo";
