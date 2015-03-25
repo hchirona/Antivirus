@@ -79,12 +79,72 @@ $error="El host se ha eliminado correctamente";
 return $error;
 }
 
-function insert_client(){
+function insert_client($nombre,$empresa,$email,$telefono){
+require('config.php');
+$error="";
+if($nombre==""){
+$error.=" Nombre ";
+}
+if($empresa==""){
+$error.=" Empresa ";
+}
+if($email==""){
+$error.= " Email ";
+}
+if($telefono==""){
+$error.= " Telefono ";
+}
+if($error!==""){
+echo "Faltan los siguientes campos: ".$error;
+}else{
+	$error="El cliente ha sido creado correctamente";
+        $nombre = mysqli_real_escape_string($link,$nombre);
+        $empresa=mysqli_real_escape_string($link,$empresa);;
+        $email = mysqli_real_escape_string($link,$email);
+        $telefono = mysqli_real_escape_string($link,$telefono);
+        mysqli_query($link,"INSERT INTO cliente (nombre,empresa,email,telefono) VALUES ('".$nombre."','".$empresa."','".$email."','".$telefono."')");
+        mysqli_close($link);
+}
+return $error;    
 }
 
-function delete_client(){
+function delete_client($id,$nombre){
+require('config.php');
+
+mysqli_query($link,"DELETE FROM cliente WHERE idcliente ='".$id."' and nombre='".$nombre."'");
+        mysqli_close($link);
+$error="El cliente se ha eliminado correctamente";
+return $error;
 }
 
+function modify_client($id,$nombre,$empresa,$email,$telefono){
+require('config.php');
+$error="";
+if($nombre==""){
+$error.=" Nombre ";
+}
+if($empresa==""){
+$error.=" Empresa ";
+}
+if($email==""){
+$error.= " Email ";
+}
+if($telefono==""){
+$error.= " Telefono ";
+}
+if($error!==""){
+echo "Faltan los siguientes campos: ".$error;
+}else{
+	$error="El cliente ha sido modificado correctamente";
+        $nombre = mysqli_real_escape_string($link,$nombre);
+        $empresa=mysqli_real_escape_string($link,$empresa);;
+        $email= mysqli_real_escape_string($link,$email);
+        $telefono= mysqli_real_escape_string($link,$telefono);
+        mysqli_query($link,"UPDATE cliente SET nombre='".$nombre."',empresa='".$empresa."',email='".$email."',telefono='".$telefono."' WHERE idcliente =".$id.";");
+        mysqli_close($link);
+}
+return $error;
+}
 
 function login_out(){
     session_start();

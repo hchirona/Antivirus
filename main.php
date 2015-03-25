@@ -278,8 +278,121 @@ $sigue = FALSE;
 }
 }
 }elseif(isset($_REQUEST["main-cliente"]) && $_REQUEST["main-cliente"]=="CLIENTES"){
- echo "prueba de menu main-cliente";
 
+    /////////////////////////////////////////////////////////////////////////////////////
+   echo '<center>
+        <h1>Clientes<br></h1>
+<FORM ACTION="main.php" METHOD=POST>
+       <input name="cliente-new" type="submit" value="Nuevo cliente"><br>
+</FORM>
+</center>';
+$lista = mysqli_query($link, "SELECT * FROM cliente");
+$sigue= TRUE;
+
+while ($sigue) {
+$cliente= mysqli_fetch_array($lista);
+if ($cliente) {
+echo '<div class="host"><table>
+<tr>
+<form action="main.php" METHOD=POST>
+<input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'">
+<button name="cliente-info" type="submit" value="info cliente">'.$cliente['nombre'].'</button>
+</form>
+</tr>
+</table></div>';
+} else {
+$sigue = FALSE;
+}
+}
+mysqli_close($link);
+}elseif((isset($_REQUEST["cliente-new"]) && $_REQUEST["cliente-new"]=="Nuevo cliente") || (isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear")){
+if(isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear"){
+
+    $nombre=$_REQUEST['nombre'];
+    $empresa=$_REQUEST['empresa'];
+    $email=$_REQUEST['email'];
+    $telefono=$_REQUEST['telefono'];
+    echo'<center><h1>Nuevo cliente<br></h1>
+        '.insert_client($nombre,$empresa,$email,$telefono).'
+<CENTER>';
+}else{
+
+echo '<center><h1>Nuevo cliente<br></h1>
+    <FORM ACTION="main.php" METHOD=POST>
+<CENTER>
+<TABLE border="0">
+<tr><td>Nombre:</td><td><input type="text" name="nombre" required><br></td></tr>
+<tr><td>Empresa:</td><td><input type="text" name="empresa" required><br></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email" required><br></td></tr>
+<tr><td>Teléfono:</td><td><input type="text" name="telefono" required><br></td></tr>
+<tr><td><INPUT TYPE="submit" name="cliente-create" VALUE="Crear">
+<td><INPUT TYPE="reset" VALUE="Borrar"></td></tr>
+</tr>
+</TABLE>
+</CENTER>
+</FORM>';
+}
+
+}elseif((isset($_REQUEST["cliente-info"]) && $_REQUEST["cliente-info"]=="info cliente") || (isset($_REQUEST["cliente-modify"])&& $_REQUEST["cliente-modify"]=="Modificar" || (isset($_REQUEST["cliente-delete"])&& $_REQUEST["cliente-delete"]=="Eliminar cliente"))){
+if(isset($_REQUEST["cliente-modify"])&& $_REQUEST["cliente-modify"]=="Modificar"){
+     $id=$_REQUEST['cliente-id'];
+    $nombre=$_REQUEST['nombre'];
+    $empresa=$_REQUEST['empresa'];
+    $email=$_REQUEST['email'];
+    $telefono=$_REQUEST['telefono'];
+    echo'<center>
+        <h1>Perfil de Cliente<br></h1>
+        '.modify_client($id,$nombre,$empresa,$email,$telefono).'
+<CENTER>';
+}elseif(isset($_REQUEST["cliente-delete"])&& $_REQUEST["cliente-delete"]=="Eliminar cliente"){
+    $id=$_REQUEST['cliente-id'];
+    $nombre=$_REQUEST['cliente-nombre'];
+    echo '<center>
+        <h1>Perdil de Cliente<br></h1>
+             '.delete_client($id, $nombre).'
+
+<CENTER>';   
+}else{
+echo '<center><h1>Perfil de cliente<br></h1></center>';
+$lista = mysqli_query($link, "SELECT * FROM cliente where idcliente='".$_REQUEST['cliente-id']."'");
+$sigue= TRUE;
+while ($sigue) {
+$cliente= mysqli_fetch_array($lista);
+if ($cliente) {
+echo '<center><table border="0">
+<FORM ACTION="main.php" METHOD=POST>
+<input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'" required>
+<tr><td>Nombre:</td><td><input type="text" name="nombre" value="'.$cliente['nombre'].'" required><br></td></tr>
+<tr><td>Empresa:</td><td><input type="text" name="empresa" value="'.$cliente['empresa'].'" required><br></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email" value="'.$cliente['email'].'" required><br></td></tr>
+<tr><td>Telefono:</td><td><input type="text" name="telefono" value="'.$cliente['telefono'].'" required><br></td></tr>
+<tr><td><INPUT TYPE="submit" name="cliente-modify" VALUE="Modificar"></td><td><INPUT TYPE="reset" VALUE="Restaurar"></td></tr>
+</form></table>
+<FORM ACTION="main.php" METHOD=POST>
+<input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'">
+<input type="hidden" name="cliente-nombre" value="'.$cliente['nombre'].'"></br>
+    ¿Deseas eliminar el cliente definitivamente?
+<INPUT TYPE="submit" name="cliente-delete" VALUE="Eliminar cliente"></form></center>';
+
+
+}else {
+$sigue = FALSE;
+}
+}
+}    
+    ///////////////////////////////////////////////////////////////////////////////
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+  
 }elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
     echo'<center><h1>Lector de codigo PHP<br></h1></center><div>
   <FORM ACTION="decode.php" METHOD=POST target="resultado"><CENTER><TABLE border="0">
@@ -305,9 +418,6 @@ echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" 
 
 }elseif(isset($_REQUEST["main-log"]) && $_REQUEST["main-log"]=="LOGS"){
     echo "prueb de menu main-log";
-
-}else{
-echo "prueba de home";
 
 }
 echo '</body></html>';
