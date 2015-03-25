@@ -47,7 +47,7 @@
             .d {
                 color: #AA9797;
             }
-            
+
             .host {
                 margin-left: 5%;
             }
@@ -208,8 +208,8 @@ echo $ssh_server ." ". $ssh_command."</br>";*/
                 die('Fallo de autentificación en la máquina '.$ssh_server);
             } else {
         echo $ssh_url;
-        $connection="cGFzc3dvcmRvdmVycG93ZXI=f3a83e2633bfa74ec08318f4f9cc99fb";
-        echo '<iframe name="resultado" src="'.$ssh_url.'?'.$connection.'" width="100%" height="85%" frameborder="1">';
+        $md5="cGFzc3dvcmRvdmVycG93ZXI=";
+        echo '<iframe name="resultado" src="'.$ssh_url.'?'.$md5.'" width="100%" height="86%" frameborder="0">';
                 if(!($stream = ssh2_exec($con, $ssh_command)) ){
                     echo 'Fallo de ejecución de comando en la máquina '.$ssh_server;
                 } else {
@@ -219,9 +219,9 @@ echo $ssh_server ." ". $ssh_command."</br>";*/
           while (!feof($stream)){
                   echo $line."</br>";
                   $line = stream_get_line($stream, 1024, "\n");
-          } 
+          }
    fclose($stream);
-      } 
+      }
                 }
         }
 }elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host") || (isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar" || (isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"))){
@@ -243,7 +243,7 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
     $nombre=$_REQUEST['host-nombre'];
     echo '<center>
         <h1>Hosts<br></h1>
-             '.delete_host($id, $nombre).'  
+             '.delete_host($id, $nombre).'
 
 <CENTER>';
     ////////////////////////////////////////////////////////////////////////////////////////////////////////
