@@ -87,13 +87,17 @@ if(isset($_REQUEST["login"]) || $_REQUEST["login"]=="Login"){
     require('func.php');
     $user=$_REQUEST['username'];
     $pass=$_REQUEST['password'];
-    echo login_in($user,$pass);
+    echo '<div class="summary"><center><h1>Acceso<br></h1>
+        '.login_in($user,$pass).'
+<form action="index.php" method="post"><center><table border="0">
+<tr><td><input name="" type="submit" value="volver"></td></tr>
+</table></center></form>';
 }else{
 echo '<div class="summary"><center><h1>Acceso<br></h1>
 <form action="index.php" method="post" name="session"><center><table border="0">
 <tr><td>Usuario:</td><td><input id="name" name="username" type="text" required><br></td></tr>
 <tr><td>Contraseña:</td><td><input id="password" name="password" type="password" required><br><td></tr>
 <tr><td><input name="login" type="submit" value="Login"></td></tr>
-</table></center><span>'.$error.' </span></form>';
+</table></center></form>';
 } 
 ?>

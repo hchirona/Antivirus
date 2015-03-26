@@ -1,102 +1,103 @@
 <?php
 
-function insert_host($nombre,$url,$ip,$username,$pass1,$pass2){
-require('config.php');
-$error="";
-if($nombre==""){
-$error.=" Nombre ";
-}
-if($url==""){
-$error.=" Url ";
-}
-if($ip==""){
-$error.= " IP ";
-}
-if($username==""){
-$error.= " Usuario ";
-}
-if($pass1=="" || $pass2==""){
-$error.=" Contraseña vacia ";
-}
-if($pass1 !== $pass2 ){
-$error.="<br>Las contraseñas no coinciden";
-}
-if($error!==""){
-echo "Faltan los siguientes campos: ".$error;
-}else{
-	$error="El host ha sido creado correctamente";
+function insert_host($nombre,$url,$ip,$username,$pass1,$pass2,$cliente){
+    require('config.php');
+    $error="";
+    if($nombre==""){
+    $error.=" Nombre ";
+    }
+    if($url==""){
+    $error.=" Url ";
+    }
+    if($ip==""){
+    $error.= " IP ";
+    }
+    if($username==""){
+    $error.= " Usuario ";
+    }
+    if($pass1=="" || $pass2==""){
+    $error.=" Contraseña vacia ";
+    }
+    if($pass1 !== $pass2 ){
+    $error.="<br>Las contraseñas no coinciden";
+    }
+    if($error!==""){
+    echo "Faltan los siguientes campos: ".$error;
+    }else{
+        $error="El host ha sido creado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
         $url=mysqli_real_escape_string($link,$url);;
         $ip = mysqli_real_escape_string($link,$ip);
         $pass1 = mysqli_real_escape_string($link,$pass1);
-        mysqli_query($link,"INSERT INTO host (idhost,nombre,url,ip,username,password) VALUES (NULL,'".$nombre."','".$url."','".$ip."','".$username."','".$pass1."')");
+        $cliente=mysqli_real_escape_string($link,$cliente);
+        mysqli_query($link,"INSERT INTO host (idhost,nombre,url,ip,username,password,idcliente) VALUES (NULL,'".$nombre."','".$url."','".$ip."','".$username."','".$pass1."','".$cliente."')");
         mysqli_close($link);
-}
-return $error;
+    }
+    return $error;
 }
 
 function modify_host($id,$nombre,$url,$ip,$username,$pass1,$pass2){
-require('config.php');
-$error="";
-if($nombre==""){
-$error.=" Nombre ";
-}
-if($url==""){
-$error.=" Url ";
-}
-if($ip==""){
-$error.= " IP ";
-}
-if($username==""){
-$error.= " Usuario ";
-}
-if($pass1=="" || $pass2==""){
-$error.=" Contraseña vacia ";
-}
-if($pass1 !== $pass2 ){
-$error.="<br>Las contraseñas no coinciden";
-}
-if($error!==""){
-echo "Faltan los siguientes campos: ".$error;
-}else{
+    require('config.php');
+    $error="";
+    if($nombre==""){
+    $error.=" Nombre ";
+    }
+    if($url==""){
+    $error.=" Url ";
+    }
+    if($ip==""){
+    $error.= " IP ";
+    }
+    if($username==""){
+    $error.= " Usuario ";
+    }
+    if($pass1=="" || $pass2==""){
+    $error.=" Contraseña vacia ";
+    }
+    if($pass1 !== $pass2 ){
+    $error.="<br>Las contraseñas no coinciden";
+    }
+    if($error!==""){
+    echo "Faltan los siguientes campos: ".$error;
+    }else{
 	$error="El host ha sido modificado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
         $url=mysqli_real_escape_string($link,$url);;
         $ip = mysqli_real_escape_string($link,$ip);
         $pass1 = mysqli_real_escape_string($link,$pass1);
+        $cliente=mysqli_real_escape_string($link,$cliente);
         mysqli_query($link,"UPDATE host SET nombre='".$nombre."',url='".$url."',ip='".$ip."',username='".$username."',password='".$pass1."' WHERE idhost =".$id.";");
         mysqli_close($link);
-}
-return $error;
+    }
+    return $error;
 }
 
 function delete_host($id,$nombre){
-require('config.php');
-
-mysqli_query($link,"DELETE FROM host WHERE idhost ='".$id."' and nombre='".$nombre."'");
-        mysqli_close($link);
-$error="El host se ha eliminado correctamente";
-return $error;
+    require('config.php');
+    mysqli_query($link,"DELETE FROM host WHERE idhost ='".$id."' and nombre='".$nombre."'");
+    mysqli_close($link);
+    $error="El host se ha eliminado correctamente";
+    return $error;
 }
 
 function insert_client($nombre,$empresa,$email,$telefono){
-require('config.php');
-$error="";
-if($nombre==""){
-$error.=" Nombre ";
-}
-if($empresa==""){
-$error.=" Empresa ";
-}
-if($email==""){
-$error.= " Email ";
-}
-if($telefono==""){
-$error.= " Telefono ";
-}
-if($error!==""){
-echo "Faltan los siguientes campos: ".$error;
-}else{
+    require('config.php');
+    $error="";
+    if($nombre==""){
+    $error.=" Nombre ";
+    }
+    if($empresa==""){
+    $error.=" Empresa ";
+    }
+    if($email==""){
+    $error.= " Email ";
+    }
+    if($telefono==""){
+    $error.= " Telefono ";
+    }
+    if($error!==""){
+    echo "Faltan los siguientes campos: ".$error;
+    }else{
 	$error="El cliente ha sido creado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
         $empresa=mysqli_real_escape_string($link,$empresa);;
@@ -104,37 +105,36 @@ echo "Faltan los siguientes campos: ".$error;
         $telefono = mysqli_real_escape_string($link,$telefono);
         mysqli_query($link,"INSERT INTO cliente (nombre,empresa,email,telefono) VALUES ('".$nombre."','".$empresa."','".$email."','".$telefono."')");
         mysqli_close($link);
-}
-return $error;    
+    }
+    return $error;    
 }
 
 function delete_client($id,$nombre){
-require('config.php');
-
-mysqli_query($link,"DELETE FROM cliente WHERE idcliente ='".$id."' and nombre='".$nombre."'");
-        mysqli_close($link);
-$error="El cliente se ha eliminado correctamente";
-return $error;
+    require('config.php');
+    mysqli_query($link,"DELETE FROM cliente WHERE idcliente ='".$id."' and nombre='".$nombre."'");
+    mysqli_close($link);
+    $error="El cliente se ha eliminado correctamente";
+    return $error;
 }
 
 function modify_client($id,$nombre,$empresa,$email,$telefono){
-require('config.php');
-$error="";
-if($nombre==""){
-$error.=" Nombre ";
-}
-if($empresa==""){
-$error.=" Empresa ";
-}
-if($email==""){
-$error.= " Email ";
-}
-if($telefono==""){
-$error.= " Telefono ";
-}
-if($error!==""){
-echo "Faltan los siguientes campos: ".$error;
-}else{
+    require('config.php');
+    $error="";
+    if($nombre==""){
+    $error.=" Nombre ";
+    }
+    if($empresa==""){
+    $error.=" Empresa ";
+    }
+    if($email==""){
+    $error.= " Email ";
+    }
+    if($telefono==""){
+    $error.= " Telefono ";
+    }
+    if($error!==""){
+    echo "Faltan los siguientes campos: ".$error;
+    }else{
 	$error="El cliente ha sido modificado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
         $empresa=mysqli_real_escape_string($link,$empresa);;
@@ -142,8 +142,8 @@ echo "Faltan los siguientes campos: ".$error;
         $telefono= mysqli_real_escape_string($link,$telefono);
         mysqli_query($link,"UPDATE cliente SET nombre='".$nombre."',empresa='".$empresa."',email='".$email."',telefono='".$telefono."' WHERE idcliente =".$id.";");
         mysqli_close($link);
-}
-return $error;
+    }
+    return $error;
 }
 
 function login_out(){

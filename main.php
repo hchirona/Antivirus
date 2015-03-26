@@ -82,6 +82,13 @@
         <title>Panel de control</title>
     </head>
     <body>
+        <script>
+function popup(){
+window.open("http://www.unphp.net/")
+}
+
+</script>
+
 <?php
 require('session.php');
 require('func.php');
@@ -156,13 +163,14 @@ if(isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear"){
     $username=$_REQUEST['username'];
     $pass1=$_REQUEST['password1'];
     $pass2=$_REQUEST['password2'];
+    $cliente=$_REQUEST['cliente-id'];
     echo'<center><h1>Hosts<br></h1>
-        '.insert_host($nombre,$url,$ip,$username,$pass1,$pass2).'
+        '.insert_host($nombre,$url,$ip,$username,$pass1,$pass2,$cliente).'
 <CENTER>';
 }else{
 
 echo '<center><h1>Hosts<br></h1>
-    <FORM ACTION="main.php" METHOD=POST>
+<FORM ACTION="main.php" METHOD=POST>
 <CENTER>
 <TABLE border="0">
 <tr><td>Nombre:</td><td><input type="text" name="nombre" required><br></td></tr>
@@ -171,7 +179,21 @@ echo '<center><h1>Hosts<br></h1>
 <tr><td>Usuario:</td><td><input type="text" name="username" required><br></td></tr>
 <tr><td>Contraseña:</td><td><input type="password" name="password1" required><br><td></tr>
 <tr><td>Confirmar:</td><td><input type="password" name="password2" required><br><td></tr>
-<tr><td><INPUT TYPE="submit" name="host-create" VALUE="Crear">
+<tr><td><b>Cliente</b></td></tr>';
+$lista = mysqli_query($link, "SELECT * FROM cliente");
+$sigue= TRUE;
+
+while ($sigue) {
+$cliente= mysqli_fetch_array($lista);
+if ($cliente) {
+echo '<tr><td>
+<input type="radio" name="cliente-id" value="'.$cliente['idcliente'].'"> '.$cliente['nombre'].'</td></tr>';
+} else {
+$sigue = FALSE;
+}
+}
+mysqli_close($link);
+echo '<tr><td><INPUT TYPE="submit" name="host-create" VALUE="Crear">
 <td><INPUT TYPE="reset" VALUE="Borrar"></td></tr>
 </tr>
 </TABLE>
@@ -324,7 +346,7 @@ echo '<center><h1>Nuevo cliente<br></h1>
 <tr><td>Nombre:</td><td><input type="text" name="nombre" required><br></td></tr>
 <tr><td>Empresa:</td><td><input type="text" name="empresa" required><br></td></tr>
 <tr><td>Email:</td><td><input type="text" name="email" required><br></td></tr>
-<tr><td>Teléfono:</td><td><input type="text" name="telefono" required><br></td></tr>
+<tr><td>Teléfono:</td><td><input type="text" maxlength="9" name="telefono"><br></td></tr>
 <tr><td><INPUT TYPE="submit" name="cliente-create" VALUE="Crear">
 <td><INPUT TYPE="reset" VALUE="Borrar"></td></tr>
 </tr>
@@ -365,38 +387,41 @@ echo '<center><table border="0">
 <tr><td>Nombre:</td><td><input type="text" name="nombre" value="'.$cliente['nombre'].'" required><br></td></tr>
 <tr><td>Empresa:</td><td><input type="text" name="empresa" value="'.$cliente['empresa'].'" required><br></td></tr>
 <tr><td>Email:</td><td><input type="text" name="email" value="'.$cliente['email'].'" required><br></td></tr>
-<tr><td>Telefono:</td><td><input type="text" name="telefono" value="'.$cliente['telefono'].'" required><br></td></tr>
+<tr><td>Telefono:</td><td><input type="text" maxlength="9" name="telefono" value="'.$cliente['telefono'].'"><br></td></tr>
 <tr><td><INPUT TYPE="submit" name="cliente-modify" VALUE="Modificar"></td><td><INPUT TYPE="reset" VALUE="Restaurar"></td></tr>
 </form></table>
 <FORM ACTION="main.php" METHOD=POST>
 <input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'">
 <input type="hidden" name="cliente-nombre" value="'.$cliente['nombre'].'"></br>
     ¿Deseas eliminar el cliente definitivamente?
-<INPUT TYPE="submit" name="cliente-delete" VALUE="Eliminar cliente"></form></center>';
+<INPUT TYPE="submit" name="cliente-delete" VALUE="Eliminar cliente"></form>
+        <b>Host</b></br>';
+///////////////////////////////////////////////////////
+$lista = mysqli_query($link, "SELECT * FROM host where idcliente=".$cliente['idcliente']);
+$sigue= TRUE;
 
+while ($sigue) {
+$host= mysqli_fetch_array($lista);
+if ($host) {
+echo '<input type="submit" name="host-cliente" value="'.$host['nombre'].'"></br>';
+} else {
+$sigue = FALSE;
+}
+}
+echo '</center>';
+mysqli_close($link);
 
 }else {
 $sigue = FALSE;
 }
 }
 }    
-    ///////////////////////////////////////////////////////////////////////////////
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
+    ///////////////////////////////////////////////////////////////////////////////    
   
 }elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
     echo'<center><h1>Lector de codigo PHP<br></h1></center><div>
   <FORM ACTION="decode.php" METHOD=POST target="resultado"><CENTER><TABLE border="0">
-<TEXTAREA rows="12" cols="200" NAME="var"></TEXTAREA><br>
+<TEXTAREA rows="10" cols="180" NAME="var"></TEXTAREA><br>
 <b>Tipo de Compresion</b><br>
    <input type="radio" name="compresion" value="">Sin compresion
    <input type="radio" name="compresion" value="gzinflate">gzinflate
@@ -408,16 +433,16 @@ $sigue = FALSE;
 </TABLE><center><b>Resultado del codigo PHP introducido:</b><br>
 <iframe name="resultado" src="decode.php" width="90%" height="45%" frameborder="1"></iframe>
 </center></CENTER></FORM></body>';
-    /*
-    echo '<iframe name="unphp" src="http://www.unphp.net/" width="100%" height="90%" frameborder="0" ></iframe>';
-*/
+echo '<center><input type=button value="Tambien puedes desofuscar el codigo aqui" onclick="popup()"></center>';
+//echo'<center><a href="http://www.unphp.net/">Tambien puedes desofuscar el codigo aqui</a></center>';
+
 }elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
 echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="1">';
 }elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
     echo "prueba de menu main catalogo";
 
 }elseif(isset($_REQUEST["main-log"]) && $_REQUEST["main-log"]=="LOGS"){
-    echo "prueb de menu main-log";
+    echo "prueba de menu main-log";
 
 }
 echo '</body></html>';
