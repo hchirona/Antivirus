@@ -11,12 +11,12 @@ if ($compresion=="" && $codificacion==""){
 	if($busqueda !== false){
 	$codigo=preg_decode($codigo);
 	$segu=str_replace("eval","echo",$codigo);
- $segu=str_replace("<?","",$segu);
+ $segu=str_replace("<?php","",$segu);
  $segu=str_replace("?>","",$segu);
  eval($segu);
 	}else {
  $segu=str_replace("eval","echo",$codigo);
- $segu=str_replace("<?","",$segu);
+ $segu=str_replace("<?php","",$segu);
  $segu=str_replace("?>","",$segu);
  eval($segu);
 }

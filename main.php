@@ -87,7 +87,7 @@ function popup(){
 window.open("http://www.unphp.net/")
 }
 
-</script>
+</script> 
 
 <?php
 require('session.php');
@@ -420,7 +420,7 @@ $sigue = FALSE;
   
 }elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
     echo'<center><h1>Lector de codigo PHP<br></h1></center><div>
-  <FORM ACTION="decode.php" METHOD=POST target="resultado"><CENTER><TABLE border="0">
+  <FORM ACTION="prueba-decode.php" METHOD=POST target="resultado"><CENTER><TABLE border="0">
 <TEXTAREA rows="10" cols="180" NAME="var"></TEXTAREA><br>
 <b>Tipo de Compresion</b><br>
    <input type="radio" name="compresion" value="">Sin compresion
@@ -431,7 +431,7 @@ $sigue = FALSE;
    <input type="radio" name="codificacion" value="base64_decode" >base64
 <br><br><INPUT TYPE="submit" VALUE="Enviar"><INPUT TYPE="reset" VALUE="Borrar">
 </TABLE><center><b>Resultado del codigo PHP introducido:</b><br>
-<iframe name="resultado" src="decode.php" width="90%" height="45%" frameborder="1"></iframe>
+<iframe name="resultado" src="prueba-decode.php" width="90%" height="45%" frameborder="1"></iframe>
 </center></CENTER></FORM></body>';
 echo '<center><input type=button value="Tambien puedes desofuscar el codigo aqui" onclick="popup()"></center>';
 //echo'<center><a href="http://www.unphp.net/">Tambien puedes desofuscar el codigo aqui</a></center>';
