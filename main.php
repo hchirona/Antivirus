@@ -217,13 +217,13 @@ Comando:<input type="text" name="ssh-command">
 echo $ssh_server ." ". $ssh_command."</br>";*/
         if(!($con = ssh2_connect($ssh_server, 22))){
             echo'No se puede conectar con la máquina '.$ssh_server;
-            /*echo '<form action="main.php" METHOD=POST>
+            echo '<form action="main.php" METHOD=POST>
 <input type="hidden" name="host-ip" value="'.$ssh_server.'">
 <input type="hidden" name="host-url" value="'.$ssh_url.'">
 <input type="hidden" name="host-username" value="'.$ssh_user.'">
 <input type="hidden" name="host-password" value="'.$ssh_pass.'">
 <button name="host-login" type="submit" value="login host">Reintentar</button>
-</form>';*/
+</form>';
         } else {
 
             if(!ssh2_auth_password($con, $ssh_user, $ssh_pass)) {
@@ -259,7 +259,7 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
         <h1>Hosts<br></h1>
         '.modify_host($id,$nombre,$url,$ip,$username,$pass1,$pass2).'
 <CENTER>';
-    //////////////////////////////////////////////////////////////////////////////////
+
 }elseif(isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"){
     $id=$_REQUEST['host-id'];
     $nombre=$_REQUEST['host-nombre'];
@@ -268,7 +268,7 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
              '.delete_host($id, $nombre).'
 
 <CENTER>';
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 }else{
 echo '<center><h1>Hosts<br></h1></center>';
 $lista = mysqli_query($link, "SELECT * FROM host where idhost='".$_REQUEST['host-id']."'");
@@ -298,10 +298,10 @@ echo '<center><table border="0">
 $sigue = FALSE;
 }
 }
+mysqli_close($link);
 }
 }elseif(isset($_REQUEST["main-cliente"]) && $_REQUEST["main-cliente"]=="CLIENTES"){
 
-    /////////////////////////////////////////////////////////////////////////////////////
    echo '<center>
         <h1>Clientes<br></h1>
 <FORM ACTION="main.php" METHOD=POST>
@@ -396,7 +396,7 @@ echo '<center><table border="0">
     ¿Deseas eliminar el cliente definitivamente?
 <INPUT TYPE="submit" name="cliente-delete" VALUE="Eliminar cliente"></form>
         <b>Host</b></br>';
-///////////////////////////////////////////////////////
+
 $lista = mysqli_query($link, "SELECT * FROM host where idcliente=".$cliente['idcliente']);
 $sigue= TRUE;
 
@@ -415,8 +415,7 @@ mysqli_close($link);
 $sigue = FALSE;
 }
 }
-}    
-    ///////////////////////////////////////////////////////////////////////////////    
+}      
   
 }elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
     echo'<center><h1>Lector de codigo PHP<br></h1></center><div>
@@ -434,10 +433,9 @@ $sigue = FALSE;
 <iframe name="resultado" src="prueba-decode.php" width="90%" height="45%" frameborder="1"></iframe>
 </center></CENTER></FORM></body>';
 echo '<center><input type=button value="Tambien puedes desofuscar el codigo aqui" onclick="popup()"></center>';
-//echo'<center><a href="http://www.unphp.net/">Tambien puedes desofuscar el codigo aqui</a></center>';
 
 }elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
-echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="1">';
+echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="0">';
 }elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
     echo "prueba de menu main catalogo";
 

@@ -7,7 +7,7 @@
 // database connections.
 // Default: Off (0)
 
-$CONFIG['debug'] = 1;
+$CONFIG['debug'] = 0;
 
 
 // ROOT PATH TO SCAN
