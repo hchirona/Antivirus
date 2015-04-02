@@ -1,0 +1,786 @@
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/classes/cpanel.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/classes/list.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/classes/mail.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/classes/subscriber.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/classes/template.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/compat/compat3.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/mod_acymailing/mod_acymailing.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_managetext/managetext.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_online/online.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_share/share.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_tablecontents/tablecontents.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_tagcbuser/tagcbuser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_tagcontent/tagcontent.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_tagsubscriber/tagsubscriber.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_tagsubscription/tagsubscription.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_tagtime/tagtime.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_acymailing_taguser/taguser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_editors_acyeditor/acyeditor/kcfinder/core/uploader.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/extensions/plg_editors_acyeditor/acyeditor/kcfinder/lib/helper_path.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/helpers/acymailer.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/helpers/acysliders.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/helpers/acytabs.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/helpers/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/helpers/import.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/helpers/update.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/views/data/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/views/filter/tmpl/form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/views/template/tmpl/form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_acymailing/install.acymailing.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_admin/controllers/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_admin/models/sysinfo.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/akeeba/core/domain/init.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/akeeba/platform/joomla25/drivers/joomla.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/akeeba/platform/platform.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/akeeba/utils/inihelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/akeeba/configuration.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/akeeba/factory.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/controllers/profiles.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_akeeba/views/buadmin/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_banners/tables/banner.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_categories/models/fields/categoryparent.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_categories/models/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_categories/views/category/tmpl/edit_options.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_checkin/models/checkin.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_config/models/application.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_config/models/component.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_config/views/application/tmpl/default_cache.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_config/views/component/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_contact/models/fields/modal/contacts.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_contact/tables/contact.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_contact/views/contact/tmpl/edit_metadata.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_contact/views/contact/tmpl/edit_params.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_content/models/fields/modal/article.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_content/models/article.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_content/views/article/tmpl/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/helpers/indexer/taxonomy.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/helpers/indexer/adapter.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/helpers/indexer/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/helpers/indexer/parser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/helpers/indexer/query.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/helpers/indexer/stemmer.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_finder/tables/filter.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_installer/models/update.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_installer/views/update/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/adapters/plugin.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/base/controller.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/config/handlers/filebrowsers.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/editor/pluginoverrides.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/restorers/backup.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/tables/plugin.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/tables/toolbar.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_jckman/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_joomlaupdate/restore.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_languages/helpers/jsonresponse.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_languages/models/override.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_languages/models/overrides.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_login/models/login.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_media/controllers/file.json.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_media/views/imageslist/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_media/views/media/tmpl/default_folders.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_media/views/media/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_media/views/medialist/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/controllers/item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/controllers/menu.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/controllers/menus.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/helpers/menus.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/models/menutypes.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/models/item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/views/item/tmpl/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/views/item/tmpl/edit_options.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/views/items/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_menus/views/menus/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_modules/models/positions.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_modules/models/select.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_modules/views/module/tmpl/edit_options.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_newsfeeds/models/fields/modal/newsfeeds.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_newsfeeds/tables/newsfeed.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_newsfeeds/views/newsfeed/tmpl/edit_metadata.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_newsfeeds/views/newsfeed/tmpl/edit_params.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_plugins/views/plugin/tmpl/edit_options.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_templates/helpers/templates.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_templates/tables/style.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_templates/views/style/tmpl/edit_options.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/controllers/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/models/group.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/models/groups.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/models/level.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/models/note.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/models/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_users/models/users.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_weblinks/tables/weblink.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_weblinks/views/weblink/tmpl/edit_metadata.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/components/com_weblinks/views/weblink/tmpl/edit_params.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/modules/mod_logged/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/modules/mod_menu/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/modules/mod_submenu/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/administrator/templates/isis/html/pagination.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_acymailing/controllers/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_acymailing/inc/phpmailer/class.phpmailer.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_acymailing/views/archive/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_acymailing/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_akeeba/models/jsons.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_banners/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_contact/helpers/route.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_contact/views/category/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_contact/views/contact/tmpl/default_form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_contact/views/contact/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_contact/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/helpers/icon.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/helpers/route.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/views/article/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/views/article/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/views/category/tmpl/blog_item.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/views/category/view.html.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/views/category/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/views/featured/tmpl/default_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_content/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_finder/helpers/html/query.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_finder/models/search.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_finder/views/search/view.opensearch.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_finder/views/search/view.feed.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_finder/views/search/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_finder/router.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_foxcontact/helpers/emailhelper.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_foxcontact/helpers/emailhelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_foxcontact/helpers/fdispatcher.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_foxcontact/helpers/fieldsbuilder.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_foxcontact/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_mailto/helpers/mailto.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/helpers/route.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/views/categories/options.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/views/categories/options.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/views/category/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/views/newsfeed/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/views/newsfeed/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_newsfeeds/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_search/models/search.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_search/views/search/view.opensearch.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_search/views/search/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_search/controller.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_search/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/helpers/route.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/models/remind.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/models/remind.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/login/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/profile/tmpl/default_custom.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/profile/tmpl/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/profile/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/registration/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/registration/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_users/views/remind/view.html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_weblinks/helpers/route.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_weblinks/views/category/view.html.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_weblinks/views/form/general.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_weblinks/views/form/general.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_weblinks/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/components/com_wrapper/router.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/includes/application.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/layouts/joomla/sidebars/submenu.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/feed/parser/rss.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/feed/link.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/feed/parser.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/form/field/chromestyle.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/form/field/chromestyle.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/form/field/headertag.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/form/field/headertag.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/form/field/moduleposition.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/html/bootstrap.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/html/formbehavior.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/html/category.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/html/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/html/dropdown.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/html/sortablelist.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/menu/site.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/router/site.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/schema/changeitem/mysql.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/schema/changeitem/sqlsrv.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/cms/toolbar/toolbar.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/config/domain/dispatcher.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/config/domain/tables.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/config/domain/views.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/controller/controller.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/form/field/image.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/form/field/image.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/form/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/hal/render/json.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/hal/document.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/hal/links.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/inflector/inflector.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/input/input.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/less/parser/parser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/less/less.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/model/field.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/model/model.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/platform/platform.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/platform/platform.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/render/joomla.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/render/strapper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/table/table.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/template/utils.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/view/json.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/fof/view/view.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/foxcontact/loader/uploader.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/access/rule.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/access/rules.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/application/web/client.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/application/router.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/application/web.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/application/web.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/archive/zip.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/cache/controller/callback.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/cache/storage/wincache.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/cache/controller.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/cache/cache.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/cache/storage.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/client/ftp.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/crypt/cipher/xml.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/crypt/cipher/xml.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/driver/oracle.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/driver/pdo.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/importer/postgresql.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/importer/mysqli.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/query/mysqli.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/query/mysqli.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/query/oracle.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/query/sqlite.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/exporter.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/exporter.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/iterator.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/database/query.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/document/error/error.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/document/html/renderer/message.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/document/html/renderer/module.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/document/html/html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/environment/browser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/event/dispatcher.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/filesystem/support/stringcontroller.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/filesystem/patcher.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/filesystem/path.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/filesystem/path.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/filesystem/stream.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/filter/input.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/fields/imagelist.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/fields/imagelist.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/rules/tel.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/include.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/include.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/field.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/form/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/github/gists.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/github/issues.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/github/pulls.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/picasa/album.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/picasa/photo.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/plus/activities.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/plus/comments.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/plus/people.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/calendar.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/adsense.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/picasa.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data/plus.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/google/data.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/grid/grid.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/html/behavior.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/html/access.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/html/html.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/html/rules.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/html/rules.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/html/select.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/http/transport/curl.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/http/transport/socket.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/http/transport/stream.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/http/transport.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/http/transport.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/input/cookie.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/input/cli.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/input/files.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/input/input.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/input/json.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/installer/adapters/component.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/installer/librarymanifest.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/installer/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/installer/installer.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/installer/packagemanifest.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/language/language.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/language/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/language/stemmer.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/log/logger/formattedtext.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/log/logger/callback.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/log/logger/syslog.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/log/log.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/mail/mail.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/object/object.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/pagination/pagination.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/plugin/plugin.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/registry/format/ini.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/registry/registry.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/session/session.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/string/inflector.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/table/extension.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/table/nested.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/table/table.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/table/update.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/table/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/table/viewlevel.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/updater/adapters/collection.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/updater/adapters/extension.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/updater/update.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/updater/updater.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/uri/uri.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/user/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/utilities/arrayhelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/joomla/factory.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/application/application.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/application/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/categories/categories.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/controller/form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/controller/legacy.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/error/error.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/exception/exception.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/form/field/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/html/menu.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/menu/menu.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/model/admin.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/model/form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/model/legacy.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/model/list.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/module/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/pathway/pathway.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/request/request.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/table/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/table/content.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/table/menu.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/table/module.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/legacy/view/legacy.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/phpmailer/phpmailer.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/simplepie/idn/idna_convert.class.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/simplepie/simplepie.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/libraries/loader.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/media/com_foxcontact/js/page.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/media/com_foxcontact/js/page.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/media/editors/tinymce/templates/include.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/media/editors/tinymce/templates/include.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/media/jui/img/stats.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/media/jui/img/stats.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/media/jui/less/cache.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/media/jui/less/cache.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/media/media/blog.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/media/media/blog.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_acymailing/mod_acymailing.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_articles_category/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_articles_news/tmpl/_item.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_artsexylightbox/artsexylightbox/css/header.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_artsexylightbox/artsexylightbox/css/header.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_artsexylightbox/artsexylightbox/library/asido/class.asido.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_artsexylightbox/artsexylightbox/library/asido/class.image.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_artsexylightbox/mod_artsexylightbox.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_footer/tmpl/info.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_footer/tmpl/info.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_foxcontact/mod_foxcontact.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jabulletin/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jabulletin/elements/categoryk2.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jabulletin/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jabulletin/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jabulletin/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jabulletin/jaimage.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/assets/elements/k2category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/assets/elements/japanel.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/assets/behavior.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/helpers/adapter/content.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/helpers/adapter/k2.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/helpers/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/helpers/jaimage.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentpopup/tmpl/default_item.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/assets/stats.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/assets/stats.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/tpls/search.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/tpls/search.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/categoryk2.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jacontentslider/jaimage.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jamasshead/elements/assets/login.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jamasshead/elements/assets/login.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jamasshead/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jamasshead/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jamasshead/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jamasshead/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jafacebookactivity/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jafacebookactivity/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jafacebookactivity/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jafacebookactivity/elements/tpl.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_janewsticker/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_janewsticker/elements/categoryk2.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_janewsticker/elements/helper.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_janewsticker/elements/jadepend.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_janewsticker/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/admin/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/assets/elements/japanel.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/assets/behavior.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/tmpl/ajax_layout.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/tmpl/ajax_layout.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaquickcontact/mod_jaquickcontact.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/elements/images/help.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/elements/images/help.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/elements/categoryk2.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/tmpl/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jasidenews/jaimage.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/admin/fileconfig.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/elements/categoryk2.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/helpers/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/helpers/jaimage.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshow/mod_jaslideshow.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/admin/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/helpers/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/helpers/jaimage.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jaslideshowlite/tmpl/custom.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jatwitter/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jatwitter/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jatwitter/elements/helper.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jatwitter/tmpl/stats.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jatwitter/tmpl/stats.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_jatwitter/jatwitter.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_languages/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_login/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/modules/mod_menu/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/managetext/managetext.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/online/online.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/share/share.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/tablecontents/tablecontents.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/tagcbuser/tagcbuser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/tagcontent/tagcontent.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/tagsubscriber/tagsubscriber.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/tagsubscription/tagsubscription.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/tagtime/tagtime.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/taguser/taguser.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/template/view.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/acymailing/template/view.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/authentication/ldap/ldap.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/content/geshi/geshi/geshi.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/content/joomla/joomla.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/content/pagebreak/pagebreak.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/acyeditor/acyeditor/kcfinder/core/uploader.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/acyeditor/acyeditor/kcfinder/lib/helper_path.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/install/models/template.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/install/views/install/tmpl/default3.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/jckeditor/includes/ckeditor/cache/cache.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/jckeditor/includes/ckeditor/htmlwriter/javascript/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/jckeditor/includes/ckeditor/plugins/authenticate/filebrowser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/jckeditor/includes/ckeditor/plugins/editor/348update.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/jckeditor/includes/ckeditor/plugins/editor/pluginoverrides.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/jckeditor/includes/ckeditor/plugins/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php4/CommandHandler/FileUpload.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php4/Core/Config.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php4/Core/FolderHandler.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php4/Core/ResourceTypeConfig.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php4/Utils/FileSystem.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php4/Utils/Security.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php5/CommandHandler/FileUpload.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php5/Core/Config.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php5/Core/FolderHandler.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php5/Core/ResourceTypeConfig.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php5/Utils/FileSystem.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/php5/Utils/Security.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/editors/jckeditor/plugins/jfilebrowser/core/connector/php/connector.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/search/content/content.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/debug/debug.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jagooglemap/assets/elements/japanel.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jagooglemap/assets/behavior.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/elements/jadepend.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/fancybox/css.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/fancybox/css.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/popupHelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/japopup/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jasocial/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jasocial/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jasocial/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jasocial/jasocial.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_content/article/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_content/category/blog_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_content/featured/default_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_newsfeeds/newsfeed/default_25.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_newsfeeds/newsfeed/default_30.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_users/profile/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/base-themes/default/html/com_users/registration/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/admin/tmpl/layouts.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/admin/tmpl/profiles.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/admin/tmpl/themes.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/admin/util.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/element/tmpl/jathemesettings.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/element/jathemesettings.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/joomla/documenthtml.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/joomla/modulehelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/joomla/view.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/libs/html_parser.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/menu/base.class.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/menu/mega.class.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/ajax.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/common.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/template.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/html.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/parameter.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/jat3/core/preload.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/ini.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3/ini.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/admin/tpls/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/admin/tpls/default_overview.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/core/template.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/core/action.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/core/layout.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/depend/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/depend/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/depend/japositions.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/joomla25/modulehelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/joomla25/view.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/joomla30/modulehelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/joomla30/pagination.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/joomla30/viewlegacy.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/lessphp/lessc.inc.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/menu/base.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/includes/menu/mega.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_contact/contact/default_form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_content/article/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_content/category/blog_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_content/featured/default_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_users/profile/default_custom.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_users/profile/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/com_users/registration/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jat3v3/t3v3base/html/pagination.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jatabs/jatabs/elements/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jatabs/jatabs/elements/helper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jatabs/jatabs/elements/jadepend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jatabs/jatabs/ajaxloader.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/jatabs/jatabs.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/languagefilter/languagefilter.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/remember/remember.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/admin/tpls/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/admin/tpls/default_overview.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_contact/contact/default_form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_content/article/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_content/category/blog_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_content/featured/default_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_users/profile/default_custom.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_users/profile/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/com_users/registration/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/html/pagination.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/base/tpls/system/tp.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/admin/layout.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/admin/theme.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/core/template.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/core/action.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/core/bot.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/core/minify.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/core/t3.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/core/templatelayout.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/depend/tpls/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/depend/t3depend.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/depend/t3positions.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/joomla25/modulehelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/joomla25/view.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/joomla30/modulehelper.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/joomla30/pagination.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/joomla30/viewlegacy.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/lessphp/lessc.inc.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/menu/megamenu.tpl.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/includes/menu/megamenu.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/t3.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/system/t3/t3.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/plugins/user/contactcreator/contactcreator.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_content/article/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/ja_brisk/category_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/ja_brisk/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/ja_brisk/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/ja_brisk/item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/ja_brisk/itemform.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/register.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_k2/profile.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_users/profile/edit.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/com_users/registration/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/mod_k2_comments/comments.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/mod_k2_content/Default/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/html/mod_k2_user/userblock.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/error.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_brisk/error.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_contact/contact/default_form.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_content/article/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_content/category/blog_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_content/featured/default_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_jacomment/themes/methys/html/comments/addnew.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_jacomment/themes/methys/html/comments/items.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys/category_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys/item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys_blog/category_item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys_blog/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys_blog/item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys_blog/user.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys_video/category.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/com_k2/templates/ja_methys_video/item.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/mod_jabulletin/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/mod_jacontentslider/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/mod_jacontentslider2/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/mod_jasidenews/default.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/html/mod_k2_comments/comments.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/images/copyrights/start.php
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/ja_methys/images/copyrights/start.php\n
+Infectado: /home/www/TR/imprentaenasturias.es/raiz/templates/system/component.php
+Cadena comprometida--> PCT4BA6ODSE en la poisición: 265
+Última fecha modificación: 21-03-2015 19:32:46
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/templates/system/component.php\n
+Código malicioso detectado: /home/www/TR/imprentaenasturias.es/raiz/dir.php\n

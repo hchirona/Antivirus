@@ -131,7 +131,7 @@ if($new_code!=''){
     $filename = htmlspecialchars($_GET["p"]);
 
     /*if(!is_writable($filename)){
-        echo '<br>No soy writeable tiooo!';
+        echo '<br>Not writable!';
         $shell_code = 'sudo chmod 666 ' . $filename;
         $x = shell_exec($shell_code);
         echo '<br><pre>' . $x . '</pre>';

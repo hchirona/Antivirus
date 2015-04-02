@@ -1,0 +1,385 @@
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/includes/class-wp-filesystem-base.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/includes/class-pclzip.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/includes/media.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/includes/widgets.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/includes/images.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/admin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/plugin-editor.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-admin/plugins.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/classes/package.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/classes/settings.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/installer/build/main.installer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/installer/build/ajax.step1.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/views/packages/new1.base.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/views/settings/general.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/views/tools/diagnostics.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/duplicator/views/tools/logging.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/composer/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/composer/ClassLoader52.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/xrstf/composer-php52/lib/xrstf/Composer52/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/auth/Google_OAuth2.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/external/URITemplateParser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_HttpRequest.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_REST.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_CurlIO.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_CacheParser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_IO.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_MediaFileUpload.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_BatchRequest.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_Model.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_ServiceResource.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/Google_Client.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-maps-widget/gmw-widget.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-maps-widget/google-maps-widget.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/google-maps-widget/gmw-tracking.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/_inc/lib/markdown/extra.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/modules/custom-css/csstidy/class.csstidy.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/modules/custom-css/csstidy/class.csstidy_optimise.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/modules/custom-css/custom-css/preprocessors/lessc.inc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/modules/custom-css/custom-css/preprocessors/scss.inc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/modules/minileven/minileven.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/modules/shortcodes/soundcloud.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/jetpack/class.jetpack-network.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/zemanta/views/options-input-checkbox.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/zemanta/views/options-input-apikey.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/zemanta/views/options-input-text.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/config.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/init.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/recommendations.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/thumbnailer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/related-posts-by-zemanta/settings.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/base.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/functions.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings_advances.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings_output.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings_product.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings_product.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings_product_sidebar.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/framework/settings_product_sidebar.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/revslider_output.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/revslider_slide.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/inc_php/revslider_slider.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/revslider/settings/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/si-contact-form/captcha/securimage_show.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/si-contact-form/captcha/securimage.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/si-contact-form/includes/class-fscf-process.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/si-contact-form/includes/class-fscf-display.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/si-contact-form/includes/class-fscf-options.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/si-contact-form/includes/class-fscf-import.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/gateways/mijireh/includes/Order.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/gateways/mijireh/includes/Rest.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/gateways/simplify-commerce/includes/Simplify/PaymentsApi.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/gateways/simplify-commerce/includes/Simplify/Http.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/libraries/class-lessc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce/includes/libraries/class-cssmin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/vendor/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader52.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/vendor/xrstf/composer-php52/lib/xrstf/Composer52/ClassLoader.php\n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/wp-user.php
+Cadena comprometida--> eval(base64_decode( en la poisición: 87787
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/wp-user.php
+Cadena comprometida--> default_action = 'FilesMan' en la poisición: 241
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wordpress-seo/wp-user.php
+Cadena comprometida-->  = 'FilesMan' en la poisición: 240
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wp-google-drive/class/google-oauth-class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wp-google-drive/class/backup-class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wp-google-drive/lib/gd-tablebuilder.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/wp125/wp125.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Core.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Widget.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Cache.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Admin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/includes/yarpp_pro_options.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/includes/yarpp_myisam_notice.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/yet-another-related-posts-plugin/includes/yarpp_options.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/get-post-image/phpthumb/phpThumb.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/get-post-image/phpthumb/phpthumb.bmp.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/get-post-image/phpthumb/phpthumb.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/get-post-image/phpthumb/phpthumb.filters.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_api.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_collection.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_entry.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_response.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/magic-action-box-pro/lib/classes/ProsulumMabAdmin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/magic-action-box-pro/lib/integration/sendreach/api.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/cached_data/phpm3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/woocommerce-colors/includes/libs/class-scss.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/gotmls/images/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/gotmls/safe-load/trace.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/gotmls/safe-load/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/gotmls/safe-load/wp-login.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/gotmls/safe-load/session.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/plugins/gotmls/index.php\n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/ws.php
+Cadena comprometida--> eval(base64_decode( en la poisición: 87631
+Última fecha modificación: 23-03-2015 17:27:48
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/ws.php
+Cadena comprometida--> default_action = 'FilesMan' en la poisición: 85
+Última fecha modificación: 23-03-2015 17:27:48
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/ws.php
+Cadena comprometida-->  = 'FilesMan' en la poisición: 84
+Última fecha modificación: 23-03-2015 17:27:48
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/u-design/scripts/image-resizer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/u-design/page-Contact.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/u-design/footer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/u-design/functions.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/u-design/functions.old.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/themes/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/uploads/quarantine/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-content/uploads/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/getid3.lib.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/getid3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio-video.matroska.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio.mp3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio-video.asf.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio-video.flv.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio-video.quicktime.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio-video.riff.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio.dts.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio.flac.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.audio.ogg.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.tag.apetag.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.tag.id3v1.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.tag.id3v2.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/ID3/module.tag.lyrics3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Cache/DB.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Cache/MySQL.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Content/Type/Sniffer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Decode/HTML/Entities.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/HTTP/Parser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Parse/Date.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Cache.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Enclosure.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/File.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/IRI.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Item.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Misc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Parser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Sanitize.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/SimplePie/Source.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/Text/Diff/Renderer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/js/tinymce/plugins/paste/plugin-install.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/translations.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/entry.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/mo.php\n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/d58072b.php
+Cadena comprometida--> \x65\x76\x61\x6C\x28 en la poisición: 1522
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/d58072b.php
+Cadena comprometida--> \x67\x7A\x69\x6E\x66\x6C\x61\x74\x65\x28 en la poisición: 1542
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/d58072b.php
+Cadena comprometida--> \x62\x61\x73\x65\x36\x34\x5F\x64\x65\x63\x6F\x64\x65\x28 en la poisición: 1582
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/d58072b.php
+Cadena comprometida--> default_action = 'FilesMan' en la poisición: 1398
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Infectado: /home/www/TR/iris-integra.net/raiz/wp-includes/pomo/d58072b.php
+Cadena comprometida-->  = 'FilesMan' en la poisición: 1397
+Última fecha modificación: 04-02-2014 13:32:52
+Permisos: 0644 -rw-r--r--
+Propietario: \n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/theme-compat/sidebar.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/class-IXR.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/class-phpmailer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/class-simplepie.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/class-wp.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/default-widgets.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/functions.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/query.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/rss.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/shortcodes.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/taxonomy.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/wp-includes/theme.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/plugins.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/plugin-editor.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/admin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/includes/media.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/includes/class-wp-filesystem-base.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/includes/class-pclzip.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-admin/includes/widgets.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/themes/u-design/functions.old.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/themes/u-design/page-Contact.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/themes/u-design/functions.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/themes/u-design/scripts/image-resizer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wp125/wp125.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/composer/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/composer/ClassLoader52.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/xrstf/composer-php52/lib/xrstf/Composer52/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/Google_Client.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/external/URITemplateParser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_CacheParser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_HttpRequest.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_CurlIO.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_IO.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/io/Google_REST.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_BatchRequest.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_ServiceResource.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_Model.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_MediaFileUpload.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/auth/Google_OAuth2.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/get-post-image/phpthumb/phpthumb.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/get-post-image/phpthumb/phpthumb.bmp.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/get-post-image/phpthumb/phpThumb.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/get-post-image/phpthumb/phpthumb.filters.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/libraries/class-cssmin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/libraries/class-lessc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/gateways/simplify-commerce/includes/Simplify/Http.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/gateways/simplify-commerce/includes/Simplify/PaymentsApi.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/gateways/mijireh/includes/Order.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce/includes/gateways/mijireh/includes/Rest.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/woocommerce-colors/includes/libs/class-scss.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/settings/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/revslider_slide.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/revslider_slider.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/revslider_output.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/functions.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/base.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings_product_sidebar.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings_output.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings_advances.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings_product_sidebar.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings_product.class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/revslider/inc_php/framework/settings_product.class (Patrick Kunaths in Konflikt stehende Kopie 2013-08-11).php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/cached_data/phpm3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/recommendations.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/config.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/settings.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/init.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/thumbnailer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/zemanta/views/options-input-text.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/zemanta/views/options-input-apikey.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/related-posts-by-zemanta/zemanta/views/options-input-checkbox.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wp-google-drive/class/backup-class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wp-google-drive/class/google-oauth-class.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wp-google-drive/lib/gd-tablebuilder.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/safe-load.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/images/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/safe-load/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/safe-load/session.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/safe-load/trace.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/gotmls/safe-load/wp-login.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/si-contact-form/captcha/securimage_show.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/si-contact-form/captcha/securimage.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/si-contact-form/includes/class-fscf-display.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/si-contact-form/includes/class-fscf-options.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/si-contact-form/includes/class-fscf-import.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/si-contact-form/includes/class-fscf-process.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/class.jetpack-network.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/modules/custom-css/custom-css/preprocessors/lessc.inc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/modules/custom-css/custom-css/preprocessors/scss.inc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/modules/custom-css/csstidy/class.csstidy_optimise.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/modules/custom-css/csstidy/class.csstidy.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/modules/minileven/minileven.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/modules/shortcodes/soundcloud.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/jetpack/_inc/lib/markdown/extra.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader52.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wordpress-seo/vendor/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/wordpress-seo/vendor/xrstf/composer-php52/lib/xrstf/Composer52/ClassLoader.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/magic-action-box-pro/lib/classes/ProsulumMabAdmin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_collection.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_entry.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_api.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/magic-action-box-pro/lib/aweber_api/aweber_response.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/magic-action-box-pro/lib/integration/sendreach/api.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-maps-widget/gmw-tracking.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-maps-widget/gmw-widget.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/google-maps-widget/google-maps-widget.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/views/settings/general.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/views/packages/new1.base.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/views/tools/diagnostics.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/views/tools/logging.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/installer/build/main.installer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/installer/build/ajax.step1.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/classes/settings.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/duplicator/classes/package.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/includes/yarpp_pro_options.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/includes/yarpp_myisam_notice.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/includes/yarpp_options.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Widget.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Cache.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Admin.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/plugins/yet-another-related-posts-plugin/classes/YARPP_Core.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-content/uploads/quarantine/index.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/taxonomy.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/class-wp.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/class-phpmailer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/rss.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/class-IXR.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/query.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/class-simplepie.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/functions.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/js/tinymce/plugins/paste/plugin-install.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/shortcodes.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/default-widgets.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/theme.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio-video.matroska.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.tag.id3v1.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/getid3.lib.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio-video.asf.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio-video.flv.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.tag.id3v2.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio.dts.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio.mp3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.tag.apetag.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio.ogg.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio-video.quicktime.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.tag.lyrics3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio.flac.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/module.audio-video.riff.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/ID3/getid3.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/pomo/mo.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/pomo/entry.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/pomo/translations.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/theme-compat/sidebar.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Enclosure.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Parser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Cache.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Source.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Item.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Sanitize.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/IRI.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/File.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Misc.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Parse/Date.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/HTTP/Parser.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Decode/HTML/Entities.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Cache/MySQL.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Cache/DB.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/SimplePie/Content/Type/Sniffer.php\n
+Código malicioso detectado: /home/www/TR/iris-integra.net/raiz/web_limpia/wp-includes/Text/Diff/Renderer.php\n
