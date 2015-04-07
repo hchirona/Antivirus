@@ -130,29 +130,31 @@ if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
 </center>';
 $lista = mysqli_query($link, "SELECT * FROM host");
 $sigue= TRUE;
-
+$cont=1;
+echo '<div class="host"><table>';
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
+if($cont > 4){echo "<tr></tr>";$cont=1;}
 if ($host) {
-echo '<div class="host"><table>
-<tr>
+echo '<td>
 <form action="main.php" METHOD=POST>
 <input type="hidden" name="host-ip" value="'.$host['ip'].'">
 <input type="hidden" name="host-url" value="'.$host['url'].'">
 <input type="hidden" name="host-username" value="'.$host['username'].'">
 <input type="hidden" name="host-password" value="'.$host['password'].'">
 <button name="host-login" type="submit" value="login host">'.$host['nombre'].'</button>
-</form>
-<form action="main.php" METHOD=POST>
+</form></td><td>
+<form action="main.php" METHOD=POST style="margin-right: 45%">
 <input type="hidden" name="host-id" value="'.$host['idhost'].'">
 <button name="host-info" type="submit" value="info host">Info</button>
 </form>
-</tr>
-</table></div>';
+</td>';
+$cont++;
 } else {
 $sigue = FALSE;
 }
 }
+echo '</table></div>';
 mysqli_close($link);
 }elseif((isset($_REQUEST["host-new"]) && $_REQUEST["host-new"]=="Nuevo host") || (isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear")){
 if(isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear"){
@@ -166,7 +168,9 @@ if(isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear"){
     $cliente=$_REQUEST['cliente-id'];
     echo'<center><h1>Hosts<br></h1>
         '.insert_host($nombre,$url,$ip,$username,$pass1,$pass2,$cliente).'
-<CENTER>';
+<CENTER><form action="main.php" method=POST>
+<button name="main-host" style="width:100px; height:35px"  type="submit" value="HOSTS">Volver</button>
+</form>';
 }else{
 
 echo '<center><h1>Hosts<br></h1>
@@ -179,19 +183,18 @@ echo '<center><h1>Hosts<br></h1>
 <tr><td>Usuario:</td><td><input type="text" name="username" required><br></td></tr>
 <tr><td>Contraseña:</td><td><input type="password" name="password1" required><br><td></tr>
 <tr><td>Confirmar:</td><td><input type="password" name="password2" required><br><td></tr>
-<tr><td><b>Cliente</b></td></tr>';
+<tr><td><b>Cliente</b></td></tr><tr><td><select><option value=0>Sin asignar</option>';
 $lista = mysqli_query($link, "SELECT * FROM cliente");
 $sigue= TRUE;
-
 while ($sigue) {
 $cliente= mysqli_fetch_array($lista);
 if ($cliente) {
-echo '<tr><td>
-<input type="radio" name="cliente-id" value="'.$cliente['idcliente'].'"> '.$cliente['nombre'].'</td></tr>';
+echo '<option value='.$cliente['idcliente'].'>'.$cliente['nombre'].'</option>';
 } else {
 $sigue = FALSE;
 }
 }
+echo '</select></td></tr>';
 mysqli_close($link);
 echo '<tr><td><INPUT TYPE="submit" name="host-create" VALUE="Crear">
 <td><INPUT TYPE="reset" VALUE="Borrar"></td></tr>
@@ -258,7 +261,10 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
     echo'<center>
         <h1>Hosts<br></h1>
         '.modify_host($id,$nombre,$url,$ip,$username,$pass1,$pass2).'
-<CENTER>';
+<CENTER><form action="main.php" method=POST>
+<button name="main-host" style="width:100px; height:35px"  type="submit" value="HOSTS">Volver</button>
+</form>';
+    
 
 }elseif(isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"){
     $id=$_REQUEST['host-id'];
@@ -267,7 +273,9 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
         <h1>Hosts<br></h1>
              '.delete_host($id, $nombre).'
 
-<CENTER>';
+<CENTER><form action="main.php" method=POST>
+<button name="main-host" style="width:100px; height:35px"  type="submit" value="HOSTS">Volver</button>
+</form>';
 
 }else{
 echo '<center><h1>Hosts<br></h1></center>';
@@ -310,22 +318,25 @@ mysqli_close($link);
 </center>';
 $lista = mysqli_query($link, "SELECT * FROM cliente");
 $sigue= TRUE;
-
+$cont=1;
+echo '<div class="host"><table style:>';
 while ($sigue) {
 $cliente= mysqli_fetch_array($lista);
+if($cont > 4){echo '<tr></tr>';$cont=1;}
 if ($cliente) {
-echo '<div class="host"><table>
-<tr>
-<form action="main.php" METHOD=POST>
+
+echo '<td>
+<form action="main.php" METHOD=POST style="margin-right: 45%">
 <input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'">
 <button name="cliente-info" type="submit" value="info cliente">'.$cliente['nombre'].'</button>
 </form>
-</tr>
-</table></div>';
+</td>';
+$cont++;
 } else {
 $sigue = FALSE;
 }
 }
+echo '</table></div>';
 mysqli_close($link);
 }elseif((isset($_REQUEST["cliente-new"]) && $_REQUEST["cliente-new"]=="Nuevo cliente") || (isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear")){
 if(isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear"){
@@ -336,7 +347,9 @@ if(isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear"){
     $telefono=$_REQUEST['telefono'];
     echo'<center><h1>Nuevo cliente<br></h1>
         '.insert_client($nombre,$empresa,$email,$telefono).'
-<CENTER>';
+<CENTER><form action="main.php" method=POST>
+<button name="main-cliente" style="width:100px; height:35px" type="submit" value="CLIENTES">Volver</button>
+</form>';
 }else{
 
 echo '<center><h1>Nuevo cliente<br></h1>
@@ -365,7 +378,9 @@ if(isset($_REQUEST["cliente-modify"])&& $_REQUEST["cliente-modify"]=="Modificar"
     echo'<center>
         <h1>Perfil de Cliente<br></h1>
         '.modify_client($id,$nombre,$empresa,$email,$telefono).'
-<CENTER>';
+<CENTER><form action="main.php" method=POST>
+<button name="main-cliente" style="width:100px; height:35px" type="submit" value="CLIENTES">Volver</button>
+</form>';
 }elseif(isset($_REQUEST["cliente-delete"])&& $_REQUEST["cliente-delete"]=="Eliminar cliente"){
     $id=$_REQUEST['cliente-id'];
     $nombre=$_REQUEST['cliente-nombre'];
@@ -373,7 +388,9 @@ if(isset($_REQUEST["cliente-modify"])&& $_REQUEST["cliente-modify"]=="Modificar"
         <h1>Perdil de Cliente<br></h1>
              '.delete_client($id, $nombre).'
 
-<CENTER>';   
+<CENTER><form action="main.php" method=POST>
+<button name="main-cliente" style="width:100px; height:35px" type="submit" value="CLIENTES">Volver</button>
+</form>';   
 }else{
 echo '<center><h1>Perfil de cliente<br></h1></center>';
 $lista = mysqli_query($link, "SELECT * FROM cliente where idcliente='".$_REQUEST['cliente-id']."'");
@@ -403,7 +420,7 @@ $sigue= TRUE;
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
 if ($host) {
-echo '<input type="submit" name="host-cliente" value="'.$host['nombre'].'"></br>';
+echo "- ".$host['nombre']."</br>";
 } else {
 $sigue = FALSE;
 }
