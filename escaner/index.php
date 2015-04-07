@@ -309,6 +309,7 @@ function renderhead() {
             }
 
             html{
+		background-color: #E3E2E0;
                 margin-top: -20px;
             }
         </style>

@@ -83,4 +83,5 @@ $CONFIG['extensions'][] = 'jpeg';
 $CONFIG['extensions'][] = 'jpg';
 $CONFIG['extensions'][] = 'gif';
 
+
 ?>
