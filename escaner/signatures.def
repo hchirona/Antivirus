@@ -1,1 +1,2 @@
-Dangerous regex matching	/\<\?php.*(eval\((gzinflate|base64_decode)\((gzinflate|base64_decode))|(if.*\(isset\(\$\{\$[a-z]{1}[0-9][0-9]\})/
+Dangerous regex matching	/\<\?php.*(eval\((gzinflate|base64_decode)\((gzinflate|base64_decode|str_rot13))\(/
+Dangerous regex matching	/((if.*\(.*isset.*\(.*\$_((POST)|(GET)))|(if.*\(.*isset.*\(.*\$\{\$[a-z]{1}[0-9][0-9]\}))/

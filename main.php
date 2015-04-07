@@ -415,8 +415,8 @@ mysqli_close($link);
 $sigue = FALSE;
 }
 }
-}      
-  
+}
+
 }elseif(isset($_REQUEST["main-lector"]) && $_REQUEST["main-lector"]=="LECTOR PHP"){
     echo'<center><h1>Lector de codigo PHP<br></h1></center><div>
   <FORM ACTION="decode.php" METHOD=POST target="resultado"><CENTER><TABLE border="0">
