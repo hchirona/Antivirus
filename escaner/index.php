@@ -249,9 +249,9 @@ function renderhead() {
             }
 
             .scanner {
-                padding-top: 130px;
+                padding-top: 20px;
                 padding-bottom: 20px;
-                background: #FFFFFF;
+                background: #E3E2E0;
             }
 
             .scanner p{
