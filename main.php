@@ -114,10 +114,10 @@ echo '<div class="top-labels">
 <form action="main.php" method=POST>
 <input name="main-catalogo" style="width:100px; height:35px" type="submit" value="CATALOGO">
 </form>
-<form action="main.php" method=POST>
-<input name="main-log" style="width:100px; height:35px" type="submit" value="LOGS">
-</form>
-</tr>
+'//<form action="main.php" method=POST>
+//<input name="main-log" style="width:100px; height:35px" type="submit" value="LOGS">
+//</form>
+.'</tr>
 </table></div><div class="summary">';
 if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
     login_out();
@@ -134,7 +134,7 @@ $cont=1;
 echo '<div class="host"><table>';
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
-if($cont > 4){echo "<tr></tr>";$cont=1;}
+if($cont > 5){echo "<tr></tr>";$cont=1;}
 if ($host) {
 echo '<td>
 <form action="main.php" METHOD=POST>
@@ -144,7 +144,7 @@ echo '<td>
 <input type="hidden" name="host-password" value="'.$host['password'].'">
 <button name="host-login" type="submit" value="login host">'.$host['nombre'].'</button>
 </form></td><td>
-<form action="main.php" METHOD=POST style="margin-right: 45%">
+<form action="main.php" METHOD=POST style="margin-right: 50%">
 <input type="hidden" name="host-id" value="'.$host['idhost'].'">
 <button name="host-info" type="submit" value="info host">Info</button>
 </form>
@@ -183,7 +183,7 @@ echo '<center><h1>Hosts<br></h1>
 <tr><td>Usuario:</td><td><input type="text" name="username" required><br></td></tr>
 <tr><td>Contraseña:</td><td><input type="password" name="password1" required><br><td></tr>
 <tr><td>Confirmar:</td><td><input type="password" name="password2" required><br><td></tr>
-<tr><td><b>Cliente</b></td></tr><tr><td><select><option value=0>Sin asignar</option>';
+<tr><td><b>Cliente</b></td></tr><tr><td><select name="cliente-id"><option value=0>Sin asignar</option>';
 $lista = mysqli_query($link, "SELECT * FROM cliente");
 $sigue= TRUE;
 while ($sigue) {
@@ -322,11 +322,11 @@ $cont=1;
 echo '<div class="host"><table style:>';
 while ($sigue) {
 $cliente= mysqli_fetch_array($lista);
-if($cont > 4){echo '<tr></tr>';$cont=1;}
+if($cont > 5){echo '<tr></tr>';$cont=1;}
 if ($cliente) {
 
 echo '<td>
-<form action="main.php" METHOD=POST style="margin-right: 45%">
+<form action="main.php" METHOD=POST style="margin-right: 50%">
 <input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'">
 <button name="cliente-info" type="submit" value="info cliente">'.$cliente['nombre'].'</button>
 </form>
