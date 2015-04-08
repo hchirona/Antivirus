@@ -193,7 +193,7 @@ function virus_check($file, $defs, $signatures ,$debug) {
             //$resultado=mysqli_query($link,$sql) or die ('Fallo al hacer Insert'.mysqli_error());
             if(is_dir('cuarentena')==false)
                 mkdir('cuarentena',0777);
-            copy($file,'cuarentena/'.$nombre.''.$infected);
+            copy($file,'cuarentena/'.$nombre.'-'.$infected);
             $infected++;
         }
     }
