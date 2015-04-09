@@ -213,9 +213,10 @@ $url=$_REQUEST['host-url'];
 $server=$_REQUEST['host-ip'];
 $user=$_REQUEST['host-username'];
 $pass=$_REQUEST['host-password'];
- echo '<iframe name="ftp" src="http://localhost/ftp2/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
-" width="100%" height="90%" frameborder="0">';
-                
+echo '<div><iframe name="scan" src="'.$url.'" width="100%" height="20%" frameborder="0"></iframe></div>';
+ echo '<div><iframe name="ftp" src="http://localhost/ftp2/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
+" width="100%" height="64%" frameborder="0"></iframe></div>';
+               
         
 }elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host") || (isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar" || (isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"))){
 if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
