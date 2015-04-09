@@ -114,9 +114,13 @@ echo '<div class="top-labels">
 <form action="main.php" method=POST>
 <input name="main-catalogo" style="width:100px; height:35px" type="submit" value="CATALOGO">
 </form>
+<form action="main.php" method=POST>
+<input name="main-ftp" style="width:100px; height:35px"  type="submit" value="FTP">
+</form>
 '//<form action="main.php" method=POST>
 //<input name="main-log" style="width:100px; height:35px" type="submit" value="LOGS">
 //</form>
+
 .'</tr>
 </table></div><div class="summary">';
 if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
@@ -179,7 +183,7 @@ echo '<center><h1>Hosts<br></h1>
 <TABLE border="0">
 <tr><td>Nombre:</td><td><input type="text" name="nombre" required><br></td></tr>
 <tr><td>Url:</td><td><input type="text" name="url" required><br></td></tr>
-<tr><td>IP:</td><td><input type="text" name="ip" required><br></td></tr>
+<tr><td>Servidor:</td><td><input type="text" name="ip" required><br></td></tr>
 <tr><td>Usuario:</td><td><input type="text" name="username" required><br></td></tr>
 <tr><td>Contraseña:</td><td><input type="password" name="password1" required><br><td></tr>
 <tr><td>Confirmar:</td><td><input type="password" name="password2" required><br><td></tr>
@@ -205,50 +209,14 @@ echo '<tr><td><INPUT TYPE="submit" name="host-create" VALUE="Crear">
 }
 
 }elseif(((isset($_REQUEST["host-login"]) && $_REQUEST["host-login"]=="login host") || (isset($_REQUEST['ssh-button']) && $_REQUEST['ssh-button']=="Exec") )){
-$ssh_url=$_REQUEST['host-url'];
-$ssh_server=$_REQUEST['host-ip'];
-$ssh_user=$_REQUEST['host-username'];
-$ssh_pass=$_REQUEST['host-password'];
-$ssh_command=$_REQUEST['ssh-command'];
-/*echo '<FORM ACTION="main.php" METHOD=POST>
-<input type="hidden" name="host-ip" value="'.$ssh_server.'">
-<input type="hidden" name="host-username" value="'.$ssh_user.'">
-<input type="hidden" name="host-password" value="'.$ssh_pass.'">
-Comando:<input type="text" name="ssh-command">
-<INPUT TYPE="submit" name="ssh-button" VALUE="Exec">
-</FORM>';
-echo $ssh_server ." ". $ssh_command."</br>";*/
-        if(!($con = ssh2_connect($ssh_server, 22))){
-            echo'No se puede conectar con la máquina '.$ssh_server;
-            echo '<form action="main.php" METHOD=POST>
-<input type="hidden" name="host-ip" value="'.$ssh_server.'">
-<input type="hidden" name="host-url" value="'.$ssh_url.'">
-<input type="hidden" name="host-username" value="'.$ssh_user.'">
-<input type="hidden" name="host-password" value="'.$ssh_pass.'">
-<button name="host-login" type="submit" value="login host">Reintentar</button>
-</form>';
-        } else {
-
-            if(!ssh2_auth_password($con, $ssh_user, $ssh_pass)) {
-                die('Fallo de autentificación en la máquina '.$ssh_server);
-            } else {
-        echo $ssh_url;
-        $md5="cGFzc3dvcmRvdmVycG93ZXI=";
-        echo '<iframe name="resultado" src="'.$ssh_url.'?'.$md5.'" width="100%" height="86%" frameborder="0">';
-                if(!($stream = ssh2_exec($con, $ssh_command)) ){
-                    echo 'Fallo de ejecución de comando en la máquina '.$ssh_server;
-                } else {
-
-          stream_set_blocking($stream, true);
-          $line = stream_get_line($stream, 1024, "\n");
-          while (!feof($stream)){
-                  echo $line."</br>";
-                  $line = stream_get_line($stream, 1024, "\n");
-          }
-   fclose($stream);
-      }
-                }
-        }
+$url=$_REQUEST['host-url'];
+$server=$_REQUEST['host-ip'];
+$user=$_REQUEST['host-username'];
+$pass=$_REQUEST['host-password'];
+ echo '<iframe name="ftp" src="http://localhost/ftp2/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
+" width="100%" height="90%" frameborder="0">';
+                
+        
 }elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host") || (isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar" || (isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"))){
 if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
      $id=$_REQUEST['host-id'];
@@ -289,7 +257,7 @@ echo '<center><table border="0">
 <input type="hidden" name="host-id" value="'.$host['idhost'].'" required>
 <tr><td>Nombre:</td><td><input type="text" name="nombre" value="'.$host['nombre'].'" required><br></td></tr>
 <tr><td>Url:</td><td><input type="text" name="url" value="'.$host['url'].'" required><br></td></tr>
-<tr><td>Ip:</td><td><input type="text" name="ip" value="'.$host['ip'].'" required><br></td></tr>
+<tr><td>Servidor:</td><td><input type="text" name="ip" value="'.$host['ip'].'" required><br></td></tr>
 <tr><td>Usuario:</td><td><input type="text" name="username" value="'.$host['username'].'" required><br></td></tr>
 <tr><td>Contraseña:</td><td><input type="password" name="password1" value="'.$host['password'].'" required><br><td></tr>
 <tr><td>Confirmar:</td><td><input type="password" name="password2" value="'.$host['password'].'" required><br><td></tr>
@@ -459,6 +427,8 @@ echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" 
 }elseif(isset($_REQUEST["main-log"]) && $_REQUEST["main-log"]=="LOGS"){
     echo "prueba de menu main-log";
 
+}elseif(isset($_REQUEST["main-ftp"]) && $_REQUEST["main-ftp"]=="FTP"){
+    echo '<iframe name="ftp" src="http://localhost/antivirus/ftp/index.php" width="100%" height="90%" frameborder="0">';
 }
 echo '</body></html>';
 ?>
