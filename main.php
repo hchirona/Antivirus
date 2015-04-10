@@ -135,30 +135,39 @@ if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
 $lista = mysqli_query($link, "SELECT * FROM host");
 $sigue= TRUE;
 $cont=1;
-echo '<div class="host"><table>';
+echo '<div class="host"><table border="0" width="100%" cellpadding="5" cellspacing="5">
+<tr>';
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
 if($cont > 5){echo "<tr></tr>";$cont=1;}
 if ($host) {
-echo '<td>
-<form action="main.php" METHOD=POST>
+    echo '<td width="20%">
+<table border="1">
+<tr>
+<td colspan="2"><center>'.$host['nombre'].'</center></td>
+</tr>
+<tr>
+<td><form action="main.php" METHOD=POST>
 <input type="hidden" name="host-ip" value="'.$host['ip'].'">
 <input type="hidden" name="host-url" value="'.$host['url'].'">
 <input type="hidden" name="host-username" value="'.$host['username'].'">
 <input type="hidden" name="host-password" value="'.$host['password'].'">
-<button name="host-login" type="submit" value="login host">'.$host['nombre'].'</button>
-</form></td><td>
-<form action="main.php" METHOD=POST style="margin-right: 50%">
+<button name="host-login" type="submit" value="login host">Login</button>
+</form></td>
+<td><form action="main.php" METHOD=POST>
 <input type="hidden" name="host-id" value="'.$host['idhost'].'">
 <button name="host-info" type="submit" value="info host">Info</button>
-</form>
+</form></td>
+</tr>
+</table>
 </td>';
+
 $cont++;
 } else {
 $sigue = FALSE;
 }
 }
-echo '</table></div>';
+echo '</tr></table></div>';
 mysqli_close($link);
 }elseif((isset($_REQUEST["host-new"]) && $_REQUEST["host-new"]=="Nuevo host") || (isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear")){
 if(isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear"){
