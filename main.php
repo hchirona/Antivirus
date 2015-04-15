@@ -78,6 +78,10 @@
             html{
                 background: #E3E2E0;
             }
+            .main-table {
+                margin: 10px 10px 10px 10px;
+                padding: 10px 10px 10px 10px;
+            }
         </style>
         <title>Panel de control</title>
     </head>
@@ -86,7 +90,9 @@
 function popup(){
 window.open("http://www.unphp.net/")
 }
-
+function findbot(url){
+window.open(url)
+}
 </script> 
 
 <?php
@@ -117,11 +123,7 @@ echo '<div class="top-labels">
 <form action="main.php" method=POST>
 <input name="main-ftp" style="width:100px; height:35px"  type="submit" value="FTP">
 </form>
-'//<form action="main.php" method=POST>
-//<input name="main-log" style="width:100px; height:35px" type="submit" value="LOGS">
-//</form>
-
-.'</tr>
+</tr>
 </table></div><div class="summary">';
 if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
     login_out();
@@ -135,16 +137,16 @@ if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
 $lista = mysqli_query($link, "SELECT * FROM host");
 $sigue= TRUE;
 $cont=1;
-echo '<div class="host"><table border="0" width="100%" cellpadding="5" cellspacing="5">
+echo '<div class="main-table"><table border="0" width="100%">
 <tr>';
 while ($sigue) {
 $host= mysqli_fetch_array($lista);
 if($cont > 5){echo "<tr></tr>";$cont=1;}
 if ($host) {
     echo '<td width="20%">
-<table border="1">
+<table>
 <tr>
-<td colspan="2"><center>'.$host['nombre'].'</center></td>
+<td colspan="2"><center><b>'.$host['nombre'].'</b></center></td>
 </tr>
 <tr>
 <td><form action="main.php" METHOD=POST>
@@ -222,9 +224,9 @@ $url=$_REQUEST['host-url'];
 $server=$_REQUEST['host-ip'];
 $user=$_REQUEST['host-username'];
 $pass=$_REQUEST['host-password'];
-echo '<div><iframe name="scan" src="'.$url.'" width="100%" height="20%" frameborder="0"></iframe></div>';
- echo '<div><iframe name="ftp" src="http://localhost/ftp2/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
-" width="100%" height="64%" frameborder="0"></iframe></div>';
+echo '<div><iframe name="scan" src="'.$url.'" width="100%" height="20%" frameborder="0"></iframe></div><input type=button value="Escanear la pagina" onclick="findbot('.$url.')">';
+echo '<div><iframe name="ftp" src="http://localhost/ftp2/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
+" width="100%" height="80%" frameborder="0"></iframe></div>';
                
         
 }elseif((isset($_REQUEST["host-info"]) && $_REQUEST["host-info"]=="info host") || (isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar" || (isset($_REQUEST["host-delete"])&& $_REQUEST["host-delete"]=="Eliminar host"))){
@@ -297,17 +299,23 @@ mysqli_close($link);
 $lista = mysqli_query($link, "SELECT * FROM cliente");
 $sigue= TRUE;
 $cont=1;
-echo '<div class="host"><table style:>';
+echo '<div class="main-table"><table border="0" width="100%"><tr>';
 while ($sigue) {
 $cliente= mysqli_fetch_array($lista);
 if($cont > 5){echo '<tr></tr>';$cont=1;}
 if ($cliente) {
-
-echo '<td>
-<form action="main.php" METHOD=POST style="margin-right: 50%">
+    echo '<td width="20%">
+<table>
+<tr>
+<td colspan="2"><center><b>'.$cliente['nombre'].'</b></center></td>
+</tr>
+<tr>
+<td><form action="main.php" METHOD=POST>
 <input type="hidden" name="cliente-id" value="'.$cliente['idcliente'].'">
-<button name="cliente-info" type="submit" value="info cliente">'.$cliente['nombre'].'</button>
-</form>
+<button name="cliente-info" type="submit" value="info cliente">Info</button>
+</form></td>
+</tr>
+</table>
 </td>';
 $cont++;
 } else {
@@ -316,6 +324,8 @@ $sigue = FALSE;
 }
 echo '</table></div>';
 mysqli_close($link);
+
+
 }elseif((isset($_REQUEST["cliente-new"]) && $_REQUEST["cliente-new"]=="Nuevo cliente") || (isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear")){
 if(isset($_REQUEST["cliente-create"])&& $_REQUEST["cliente-create"]=="Crear"){
 
