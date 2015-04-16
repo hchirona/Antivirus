@@ -224,8 +224,8 @@ $url=$_REQUEST['host-url'];
 $server=$_REQUEST['host-ip'];
 $user=$_REQUEST['host-username'];
 $pass=$_REQUEST['host-password'];
-echo '<div><iframe name="scan" src="'.$url.'" width="100%" height="20%" frameborder="0"></iframe></div><input type=button value="Escanear la pagina" onclick="findbot('.$url.')">';
-echo '<div><iframe name="ftp" src="http://localhost/ftp2/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
+echo '<div><iframe name="scan" src="'.$url.'" width="100%" height="20%" frameborder="0"></iframe></div>';
+echo '<div><iframe name="ftp" src="http://localhost//antivirus/ftp/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
 " width="100%" height="80%" frameborder="0"></iframe></div>';
                
         
