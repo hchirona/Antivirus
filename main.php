@@ -90,9 +90,7 @@
 function popup(){
 window.open("http://www.unphp.net/")
 }
-function findbot(url){
-window.open(url)
-}
+
 </script> 
 
 <?php
@@ -129,7 +127,7 @@ if(isset($_REQUEST["exit"]) && $_REQUEST["exit"]=="Cerrar sessión"){
     login_out();
 }elseif(isset($_REQUEST["main-host"]) && $_REQUEST["main-host"]=="HOSTS"){
  echo '<center>
-        <h1>Hosts<br></h1>
+        <h1>Dominios<br></h1>
 <FORM ACTION="main.php" METHOD=POST>
        <input name="host-new" type="submit" value="Nuevo host"><br>
 </FORM>
@@ -188,7 +186,7 @@ if(isset($_REQUEST["host-create"])&& $_REQUEST["host-create"]=="Crear"){
 </form>';
 }else{
 
-echo '<center><h1>Hosts<br></h1>
+echo '<center><h1>Nuevo Dominio<br></h1>
 <FORM ACTION="main.php" METHOD=POST>
 <CENTER>
 <TABLE border="0">
@@ -225,7 +223,7 @@ $server=$_REQUEST['host-ip'];
 $user=$_REQUEST['host-username'];
 $pass=$_REQUEST['host-password'];
 echo '<div><iframe name="scan" src="'.$url.'" width="100%" height="20%" frameborder="0"></iframe></div>';
-echo '<div><iframe name="ftp" src="http://localhost//antivirus/ftp/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
+echo '<div><iframe name="ftp" src="http://localhost/antivirus/ftp/index.php?ftpserver='.$server.'&ftpserverport=21&username='.$user.'&language=es&skin=shinra&ftpmode=automatic&passivemode=no&protocol=FTP&viewmode=list&sort=&sortorder=&state=login_small&state2=bookmark&go_to_state=browse&go_to_state2=main&directory=&entry=
 " width="100%" height="80%" frameborder="0"></iframe></div>';
                
         
@@ -250,7 +248,7 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
     $id=$_REQUEST['host-id'];
     $nombre=$_REQUEST['host-nombre'];
     echo '<center>
-        <h1>Hosts<br></h1>
+        <h1>Dominio<br></h1>
              '.delete_host($id, $nombre).'
 
 <CENTER><form action="main.php" method=POST>
@@ -258,7 +256,7 @@ if(isset($_REQUEST["host-modify"])&& $_REQUEST["host-modify"]=="Modificar"){
 </form>';
 
 }else{
-echo '<center><h1>Hosts<br></h1></center>';
+echo '<center><h1>Datos del dominio<br></h1></center>';
 $lista = mysqli_query($link, "SELECT * FROM host where idhost='".$_REQUEST['host-id']."'");
 $sigue= TRUE;
 while ($sigue) {

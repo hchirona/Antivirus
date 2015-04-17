@@ -26,8 +26,8 @@ function getLanguageArray() {
 // Use the ISO 639 code described here: http://www.w3.org/WAI/ER/IG/ert/iso639.htm
 // --------------
 
-	$languageArray["en"]["name"] = "English";
-	$languageArray["en"]["file"] = "en.inc.php";
+	$languageArray["es"]["name"] = "Español";
+	$languageArray["es"]["file"] = "es.inc.php";
 
 	return $languageArray;
 
