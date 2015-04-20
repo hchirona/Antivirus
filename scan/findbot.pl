@@ -14,10 +14,19 @@ my @defaultdirs = ('/tmp', '/usr/tmp', '/home', '/var/www');
 
 my $MAXLINES = 40000;
 
-my($strings, $md5sum, $file, %badhash);
+my($strings, $md5sum, $file, %badhash, %white, %black);
 
 &inithelpers;
 &badhashes;
+
+############ MD5SUM finbot.pl ###########
+my $findbot = `$md5sum $0`;
+	    chomp($findbot);
+	    $findbot =~ s/\s.*//;
+############ Listas Manuales #######
+&whitelist;
+&blacklist;
+####################################
 
 #my $executable = '^(sshd|cache|exim|sh|bash)$';
 
@@ -68,6 +77,28 @@ sub recursion {
 	$cf =~ s/'/'"'"'/g;	# hide single-quotes in filename
 	$cf = "'$cf'";		# bury in single-quotes
 
+################## LISTA BLANCA ####################
+	if (-f $currentfile) {
+	    my $checksum = `$md5sum $cf`;
+	    chomp($checksum);
+	    $checksum =~ s/\s.*//;
+	    if ($white{$checksum}) {
+		#print STDERR "$currentfile: LISTA BLANCA - PRUEBA!\n";
+		next;
+	    }
+}
+################## LISTA NEGRA ###############################
+	if (-f $currentfile) {
+	    my $checksum = `$md5sum $cf`;
+	    chomp($checksum);
+	    $checksum =~ s/\s.*//;
+	    if ($black{$checksum}) {
+		print STDERR "$currentfile: Archivo infectado!\n";
+		next;
+	    }
+}
+######################################################
+
 	if (-d $currentfile && ! -l $currentfile) {
 	    &recursion($currentfile);	# don't scan symlinks
 	    next;
@@ -99,7 +130,7 @@ sub recursion {
 
 	    my $strings = `$strings $cf`;
 	    if ($strings =~ /\/usr\/bin\/perl/sm) {
-		print STDERR "$currentfile: possible binary-encoded-perl\n";
+		print STDERR "$currentfile: possible binario ofuscado\n";
 		next;
 	    }
 	}
@@ -160,11 +191,21 @@ sub badhashes {
 	'0fdb34f48166dae57ff410d723efd3f7',
 	'396d1fb94d79b732f6ab2fa6c5f3ed39',
 	'fd3c01133946d59ace4fdb49dde93268', #Directmailer .exe Windows binary
-        ####################################################################
-	'b05658fbd5757d3d1b93f0b9fca74725',
-        'd37f3ded20509d19751b0794e688d9c1',
-        '732fce3b2bc7dfd2cc62aa2b6c74f3cd',
         ));
 }
+
+sub whitelist {
+    map { $white{$_} = 1; } ((
+	$findbot,
+	'1b4f825b381d2b804ef1b5c6c469ba7e', #index.php
+        ));
+}
+
+
+sub blacklist {
+    map { $black{$_} = 1; } ((
+        ));
+}
+
 
 
