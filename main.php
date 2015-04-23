@@ -10,6 +10,10 @@
                 padding-top: 10px;
                 color: #000000;
             }
+            
+            body{
+                background: #E3E2E0;
+            }
 
             .scanner {
                 padding-top: 130px;
@@ -53,7 +57,7 @@
             }
 
             .summary {
-                padding-top: 10px;
+                padding-top: 0px;
                 margin-top: 0px;
                 background: #E3E2E0;
             }
@@ -446,7 +450,7 @@ echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" 
     echo "prueba de menu main-log";
 
 }elseif(isset($_REQUEST["main-ftp"]) && $_REQUEST["main-ftp"]=="FTP"){
-    echo '<iframe name="ftp" src="http://localhost/antivirus/ftp/index.php" width="100%" height="90%" frameborder="0">';
+    echo '<div><iframe name="ftp-libre" src="http://localhost/antivirus/ftp/index.php?" width="100%" height="90%" frameborder="0"></iframe></div>';
 }
 echo '</body></html>';
 ?>

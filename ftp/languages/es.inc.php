@@ -1138,7 +1138,7 @@ if ($net2ftp_globals["state"] == "login_small") {
 // -------------------------------------------------------------------------
 
 $net2ftp_messages["Please enter your Administrator username and password."] = "Porfavor introduzca su nombre de usuario y contraseña de administrador.";
-$net2ftp_messages["Please enter your username and password for FTP server <b>%1\$s</b>."] = "Por favor introduce tu usuario y contraseña para <b>%1\$s</b>.";
+$net2ftp_messages["Please enter your username and password for FTP server <b>%1\$s</b>."] = "Porfavor introduce tu usuario y contraseña para <b>%1\$s</b>.";
 $net2ftp_messages["Username"] = "Nombre de Usuario";
 $net2ftp_messages["Your session has expired; please enter your password for FTP server <b>%1\$s</b> to continue."] = "Tu sesion a sido cancelada; porfavor introduce tu contraseña para el servidor FTP <b>%1\$s</b> y continua.";
 $net2ftp_messages["Your IP address has changed; please enter your password for FTP server <b>%1\$s</b> to continue."] = "Tu direccion IP a cambiado; Porfavor introduzca su contraseña para el servidor FTP <b>%1\$s</b> para continuar.";

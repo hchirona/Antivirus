@@ -11,6 +11,10 @@
                 color: #000000;
             }
 
+            body{
+                background: #E3E2E0;
+            }           
+            
             .scanner {
                 padding-top: 130px;
                 padding-bottom: 20px;
