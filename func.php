@@ -4,25 +4,25 @@ function insert_host($nombre,$url,$ip,$username,$pass1,$pass2,$cliente){
     require('config.php');
     $error="";
     if($nombre==""){
-    $error.=" Nombre ";
+        $error.=" Nombre ";
     }
     if($url==""){
-    $error.=" Url ";
+        $error.=" Url ";
     }
     if($ip==""){
-    $error.= " IP ";
+        $error.= " IP ";
     }
     if($username==""){
-    $error.= " Usuario ";
+        $error.= " Usuario ";
     }
     if($pass1=="" || $pass2==""){
-    $error.=" Contraseña vacia ";
+        $error.=" Contraseña vacia ";
     }
     if($pass1 !== $pass2 ){
-    $error.="<br>Las contraseñas no coinciden";
+        $error.="<br>Las contraseñas no coinciden";
     }
     if($error!==""){
-    echo "Faltan los siguientes campos: ".$error;
+        echo "Faltan los siguientes campos: ".$error;
     }else{
         $error="El host ha sido creado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
@@ -40,36 +40,36 @@ function modify_host($id,$nombre,$url,$ip,$username,$pass1,$pass2){
     require('config.php');
     $error="";
     if($nombre==""){
-    $error.=" Nombre ";
+        $error.=" Nombre ";
     }
     if($url==""){
-    $error.=" Url ";
+        $error.=" Url ";
     }
     if($ip==""){
-    $error.= " IP ";
+        $error.= " IP ";
     }
     if($username==""){
-    $error.= " Usuario ";
+        $error.= " Usuario ";
     }
     if($pass1=="" || $pass2==""){
-    $error.=" Contraseña vacia ";
+        $error.=" Contraseña vacia ";
     }
     if($pass1 !== $pass2 ){
-    $error.="<br>Las contraseñas no coinciden";
+        $error.="<br>Las contraseñas no coinciden";
     }
     if($error!==""){
-    echo "Faltan los siguientes campos: ".$error;
+        echo "Faltan los siguientes campos: ".$error;
     }else{
-	$error="El host ha sido modificado correctamente";
-        $nombre = mysqli_real_escape_string($link,$nombre);
-        $url=mysqli_real_escape_string($link,$url);;
-        $ip = mysqli_real_escape_string($link,$ip);
-        $pass1 = mysqli_real_escape_string($link,$pass1);
-        $cliente=mysqli_real_escape_string($link,$cliente);
-        mysqli_query($link,"UPDATE host SET nombre='".$nombre."',url='".$url."',ip='".$ip."',username='".$username."',password='".$pass1."' WHERE idhost =".$id.";");
-        mysqli_close($link);
-    }
-    return $error;
+       $error="El host ha sido modificado correctamente";
+       $nombre = mysqli_real_escape_string($link,$nombre);
+       $url=mysqli_real_escape_string($link,$url);;
+       $ip = mysqli_real_escape_string($link,$ip);
+       $pass1 = mysqli_real_escape_string($link,$pass1);
+       $cliente=mysqli_real_escape_string($link,$cliente);
+       mysqli_query($link,"UPDATE host SET nombre='".$nombre."',url='".$url."',ip='".$ip."',username='".$username."',password='".$pass1."' WHERE idhost =".$id.";");
+       mysqli_close($link);
+   }
+   return $error;
 }
 
 function delete_host($id,$nombre){
@@ -84,29 +84,29 @@ function insert_client($nombre,$empresa,$email,$telefono){
     require('config.php');
     $error="";
     if($nombre==""){
-    $error.=" Nombre ";
+        $error.=" Nombre ";
     }
     if($empresa==""){
-    $error.=" Empresa ";
+        $error.=" Empresa ";
     }
     if($email==""){
-    $error.= " Email ";
+        $error.= " Email ";
     }
     if($telefono==""){
-    $error.= " Telefono ";
+        $error.= " Telefono ";
     }
     if($error!==""){
-    echo "Faltan los siguientes campos: ".$error;
+        echo "Faltan los siguientes campos: ".$error;
     }else{
-	$error="El cliente ha sido creado correctamente";
-        $nombre = mysqli_real_escape_string($link,$nombre);
-        $empresa=mysqli_real_escape_string($link,$empresa);;
-        $email = mysqli_real_escape_string($link,$email);
-        $telefono = mysqli_real_escape_string($link,$telefono);
-        mysqli_query($link,"INSERT INTO cliente (nombre,empresa,email,telefono) VALUES ('".$nombre."','".$empresa."','".$email."','".$telefono."')");
-        mysqli_close($link);
-    }
-    return $error;    
+       $error="El cliente ha sido creado correctamente";
+       $nombre = mysqli_real_escape_string($link,$nombre);
+       $empresa=mysqli_real_escape_string($link,$empresa);;
+       $email = mysqli_real_escape_string($link,$email);
+       $telefono = mysqli_real_escape_string($link,$telefono);
+       mysqli_query($link,"INSERT INTO cliente (nombre,empresa,email,telefono) VALUES ('".$nombre."','".$empresa."','".$email."','".$telefono."')");
+       mysqli_close($link);
+   }
+   return $error;    
 }
 
 function delete_client($id,$nombre){
@@ -121,36 +121,36 @@ function modify_client($id,$nombre,$empresa,$email,$telefono){
     require('config.php');
     $error="";
     if($nombre==""){
-    $error.=" Nombre ";
+        $error.=" Nombre ";
     }
     if($empresa==""){
-    $error.=" Empresa ";
+        $error.=" Empresa ";
     }
     if($email==""){
-    $error.= " Email ";
+        $error.= " Email ";
     }
     if($telefono==""){
-    $error.= " Telefono ";
+        $error.= " Telefono ";
     }
     if($error!==""){
-    echo "Faltan los siguientes campos: ".$error;
+        echo "Faltan los siguientes campos: ".$error;
     }else{
-	$error="El cliente ha sido modificado correctamente";
-        $nombre = mysqli_real_escape_string($link,$nombre);
-        $empresa=mysqli_real_escape_string($link,$empresa);;
-        $email= mysqli_real_escape_string($link,$email);
-        $telefono= mysqli_real_escape_string($link,$telefono);
-        mysqli_query($link,"UPDATE cliente SET nombre='".$nombre."',empresa='".$empresa."',email='".$email."',telefono='".$telefono."' WHERE idcliente =".$id.";");
-        mysqli_close($link);
-    }
-    return $error;
+       $error="El cliente ha sido modificado correctamente";
+       $nombre = mysqli_real_escape_string($link,$nombre);
+       $empresa=mysqli_real_escape_string($link,$empresa);;
+       $email= mysqli_real_escape_string($link,$email);
+       $telefono= mysqli_real_escape_string($link,$telefono);
+       mysqli_query($link,"UPDATE cliente SET nombre='".$nombre."',empresa='".$empresa."',email='".$email."',telefono='".$telefono."' WHERE idcliente =".$id.";");
+       mysqli_close($link);
+   }
+   return $error;
 }
 
 function login_out(){
     session_start();
     if(session_destroy())
     {
-    header("Location: index.php");
+        header("Location: index.php");
     }
 }
 
@@ -175,29 +175,29 @@ function login_in($username,$password){
         }else{
             $error = "Usuario o contraseña invalidos";
         }
-    mysqli_close($link);
-        }
+        mysqli_close($link);
+    }
     
     return $error;
 }
 
 function preg_decode($texto){
-$l1= preg_replace('/preg_replace\(\"\/\.\*\/e\"\,\"/', '', $texto);
-$l2= preg_replace('/\'.*/', '', $l1);
-$l3= 'print "'.$l2.'";';
-$l4= preg_replace('/^.*\'/' ,'', $l1);
-$l5= preg_replace('/\".*/' ,'' ,$l4);
-$l6= 'print "'.$l5.'";';
-$l7= preg_replace('/^.*?\'/','"',$l1);
-$l8= preg_replace('/\'.*/','"',$l7);
+    $l1= preg_replace('/preg_replace\(\"\/\.\*\/e\"\,\"/', '', $texto);
+        $l2= preg_replace('/\'.*/', '', $l1);
+        $l3= 'print "'.$l2.'";';
+        $l4= preg_replace('/^.*\'/' ,'', $l1);
+        $l5= preg_replace('/\".*/' ,'' ,$l4);
+        $l6= 'print "'.$l5.'";';
+        $l7= preg_replace('/^.*?\'/','"',$l1);
+        $l8= preg_replace('/\'.*/','"',$l7);
 
-ob_start();
-echo eval($l3);
-echo "$l8";
-echo eval($l6);
-$resultado=ob_get_clean();
-return $resultado;
-}
+        ob_start();
+        echo eval($l3);
+        echo "$l8";
+        echo eval($l6);
+        $resultado=ob_get_clean();
+        return $resultado;
+    }
 
 
 
@@ -225,13 +225,13 @@ function host_login(){
                 }
             }
          }  
-}*/
+     }*/
 /*
 function insert_user($nombre,$username,$pass1,$pass2){
     require('config.php');
 	$error="El host ha sido creado correctamente";
         $nombre = mysqli_real_escape_string($link,$nombre);
-        $username = mysqli_real_escape_string($link,$ip);
+        $username = mysqli_real_escape_string($link,$username);
         $pass1 = mysqli_real_escape_string($link,$pass1);
         $pass1 = sha1(md5($cert.$pass1));
         mysqli_query($link,"INSERT INTO usuario (iduser,nombre,username,password) VALUES (NULL,'".$nombre."','".$username."','".$pass1."')");
@@ -240,5 +240,5 @@ function insert_user($nombre,$username,$pass1,$pass2){
 return $error;
 }*/
 
- 
+
 ?>
