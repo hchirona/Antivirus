@@ -127,12 +127,6 @@
                 <input name="main-lector" style="width:100px; height:35px" type="submit" value="LECTOR PHP">
             </form>
             <form action="main.php" method=POST>
-                <input name="main-escaner" style="width:100px; height:35px" type="submit" value="ESCANER">
-            </form>
-            <form action="main.php" method=POST>
-                <input name="main-catalogo" style="width:100px; height:35px" type="submit" value="CATALOGO">
-            </form>
-            <form action="main.php" method=POST>
                 <input name="main-ftp" style="width:100px; height:35px"  type="submit" value="FTP">
             </form>
         </tr>
@@ -448,14 +442,6 @@ mysqli_close($link);
         <iframe name="resultado" src="decode.php" width="90%" height="45%" frameborder="1"></iframe>
     </center></CENTER></FORM></body>';
     echo '<center><input type=button value="Tambien puedes desofuscar el codigo aqui" onclick="popup()"></center>';
-
-}elseif(isset($_REQUEST["main-escaner"]) && $_REQUEST["main-escaner"]=="ESCANER"){
-    echo '<iframe name="escaner" src="http://localhost/antivirus/escaner/index.php" width="100%" height="85%" frameborder="0">';
-}elseif(isset($_REQUEST["main-catalogo"]) && $_REQUEST["main-catalogo"]=="CATALOGO"){
-    echo "";
-
-}elseif(isset($_REQUEST["main-log"]) && $_REQUEST["main-log"]=="LOGS"){
-    echo "";
 
 }elseif(isset($_REQUEST["main-ftp"]) && $_REQUEST["main-ftp"]=="FTP"){
     echo '<div><iframe name="ftp-libre" src="http://localhost/antivirus/ftp/index.php?" width="100%" height="90%" frameborder="0"></iframe></div>';
