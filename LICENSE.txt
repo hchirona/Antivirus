@@ -1,4 +1,42 @@
-                    GNU GENERAL PUBLIC LICENSE
+
+Antivirus DV LICENSE
+
+
+MAIN CODE
+====================
+
+The main code of Antivirus DV is released under the GNU GENERAL PUBLIC LICENSE.
+This includes the following files:
+
+Directory /index.php
+Directory /config.php
+Directory /decode.php
+Directory /func.php
+Directory /main.php
+Directory /session.php
+Directory /scan/index.php
+Directory /scan/findbot.pl
+Directory /scan/findbot-plus.pl
+
+NET2FTP
+====================
+
+The main code of net2ftp is released under the GNU GENERAL PUBLIC LICENSE.
+This includes the following files:
+
+Directory /ftp                    all files
+Directory /ftp/includes           all files except pcl*.lib.php and zip.lib.php
+Directory /ftp/integration        all files
+Directory /ftp/languages          all files
+Directory /ftp/modules            all files
+Directory /ftp/skins              all files except the images and HTML progress
+Directory /ftp/temp               all files
+
+NET2FTP ALSO USES OTHER MODULES (PHP code, Javascript code, Java applets and images).
+EACH OF THESE MODULES IS RELEASED UNDER ITS OWN LICENSE.
+Read on for more details.
+
+-------------------------------------------------------------------------------                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
@@ -631,7 +669,7 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    Escaner de ficheros maliciosos con acceso ftp y decode de archivos codificados.
+    Antivirus DV: Malware scan software
     Copyright (C) 2015  Héctor Chirona Torrentí
 
     This program is free software: you can redistribute it and/or modify
