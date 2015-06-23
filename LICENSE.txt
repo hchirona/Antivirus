@@ -36,7 +36,8 @@ NET2FTP ALSO USES OTHER MODULES (PHP code, Javascript code, Java applets and ima
 EACH OF THESE MODULES IS RELEASED UNDER ITS OWN LICENSE.
 Read on for more details.
 
--------------------------------------------------------------------------------                    GNU GENERAL PUBLIC LICENSE
+-------------------------------------------------------------------------------                    
+                      GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
